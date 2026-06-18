@@ -71,6 +71,9 @@ The two folder types inside each category serve different purposes:
 
 Contributions are welcome both through git and pull requests, and entirely through the browser with no git or programming experience required — whichever suits you. The full step-by-step guide for both paths, including naming conventions, how to avoid duplicate entries, and what columns a results table should have, lives in [`CONTRIBUTING.md`](CONTRIBUTING.md). Start there before adding anything.
 
+
+
+
 ## Data formats and naming
 
 Research results are kept in plain-text formats on purpose, so they're easy to read, diff, and edit without specialized software: Markdown (`.md`) for raw research notes, and CSV (`.csv`) for the structured results tables.
