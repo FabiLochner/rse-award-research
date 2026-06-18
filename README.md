@@ -28,6 +28,8 @@ The project is organized around three independent categories, each tracked separ
 - **Newcomer category** — programs, tracks, or award categories aimed specifically at newcomers.
 - **Scientific societies (*Fachgesellschaften*)** — the landscape of discipline-specific scientific/professional societies in Germany. 
 
+Test
+
 ## Repository structure
 
 ```
