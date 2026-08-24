@@ -254,7 +254,7 @@
 
 #let newcomer-stages = (
   (label: "Conference/Public Call", dates: ([deRSE27 Poster\(2027-03)], [])),
-  (label: "Filtering", dates: ([Motivation letter \ CV \ GitHub statistics],)),
+  (label: "Filtering", dates: ([Motivation letter \ CV \ Repo statistics],)),
   (label: "Short-list", dates: ([],)),
   (label: "Jury", dates: ([],)),
   (label: "Award Event", dates: ([INFORMATIK 27 (2027-09)],)),
@@ -297,7 +297,7 @@
     table.cell(rowspan: 2)[Motivation letter],
     [Relevance of RS for community],
     [CV],
-    table.cell(rowspan: 3)[Community Engagement,\ GitHub statistics],
+    table.cell(rowspan: 3)[Community Engagement,\ Repo statistics],
     [Stars, Forks, Watch], [Contributor growth, Pull requests], [ Issues, Commit frequency],
     ),
   caption: [Filter system],
@@ -338,45 +338,45 @@
 - idea: INFORMATIK 27 (2027-09)
 - invite someone from DFG; see #link("https://www.dfg.de/de/foerderung/foerdermoeglichkeiten/programme/infrastruktur/lis/lis-foerderangebote/forschungssoftwareinfrastrukturen")[DFG Förderprogramm "Forschungssoftwareinfrastrukturen"]
 
-#v(1cm)
-
+#pagebreak()
 
 = Evaluation criteria and indicators
 
-== Artefact Track
+== Artefact Track and Scientific Excellence
 
+#[
+#show figure: set block(breakable: true)
+#set text(size: 11pt)
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto, auto),
     rows: (auto, auto, auto),
-    fill: rgb("ADD8E6"),
-    [], [Software\ Engineering Level], [Research\ Impact], [Community\ Engagement], [FAIRness\ &\ Reproducability], [Maintainability\ &\ Sustainability],
-    [Definition], [], [], [], [], [], 
-    [Indicators], [], [], [], [], [], 
-    [Sources], [], [], [], [], [], 
+    table.header([], [Software\ Engineering Level], [Research\ Impact], [Community\ Engagement], [FAIRness\ &\ (Reproducability)], [Maintainability\ &\ Sustainability]),
+    [Definition], [This criterion evaluates the adherence to best practices of coding and software engineering principles.], [This criterion evaluates the scientific impact of the research software.], [This criterion evaluates the degree of community engagement to the research software.], [This criterion evalues the adherence to the #link("https://www.nature.com/articles/s41597-022-01710-x")[FAIR4RS] principles, which are part of the Open Science concept.], [This criterion evaluates the long-term stability and maintainability of the research software.], 
+    [Indicators],
+    [#text(font: "New Computer Modern", style: "italic")[
+      Best SE practices (e.g., modularity, readability, efficiency); Software has tests (unit, integration, system tests); Software test coverage (code, branch, threshold, completeness);\ Human code review\ requirement (pull requests)
+    ]],
+    [#text(font: "New Computer Modern", style: "italic")[
+      Number of citations; Ranking of the journal;\ Number of paper downloads
+    ]],
+    [#text(font: "New Computer Modern", style: "italic")[
+      Repo contribution stats (guidelines, contributors, pull requests, commit frequency, issues);\ Repo popularity stats (stars, watch, forks, downloads); \ Active communication channels and documentation pages
+    ]],
+    [#text(font: "New Computer Modern", style: "italic")[
+      CodeMeta completeness; descriptive metadata; license; persistent identifier; archived in Software Heritage/scholarly repo; uses citation; versioning standards; containerized
+    ]],
+    [#text(font: "New Computer Modern", style: "italic")[
+      Repo is active; has releases; up-to-date metadata; has dependency management solution; uses issue tracking system; current phase in the Software Development Life Cycle 
+    ]],
+    [Sources],
+    table.cell(colspan: 5)[Projektantrag, #link("https://everse.software/indicators/website/indicators.html")[EVERSE indicators], #link("https://os.helmholtz.de/assets/open_science/user_upload/Software-Award-Criteria-2026.pdf")[Helmholtz Software Award]],
   ),
-  caption: [Evaluation criteria and indicators for the Artefact Track category],
+  caption: [Evaluation criteria and indicators for the Artefact Track and Scientific Excellence category],
 )
+]
 
-Each criterion is rated on an ordinal scale, from 1 (minimum) to 5 (outstanding). 
-
-== Scientific Excellence
-
-
-#figure(
-  table(
-    columns: (auto, auto, auto, auto, auto, auto),
-    rows: (auto, auto, auto),
-    fill: rgb("#90EE90"),
-    [], [Software\ Engineering Level], [Research\ Impact], [Community\ Engagement], [FAIRness\ &\ Reproducability], [Maintainability\ &\ Sustainability],
-    [Definition], [], [], [], [], [], 
-    [Indicators], [], [], [], [], [], 
-    [Sources], [], [], [], [], [], 
-  ),
-  caption: [Evaluation criteria and indicators for the Scientific Excellence category],
-)
-
-Each criterion is rated on an ordinal scale, from 1 (minimum) to 5 (outstanding). 
+Each criterion is rated on an ordinal scale, from 1 (minimum) to 5 (outstanding).
 
 #v(1cm)
 
