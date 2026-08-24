@@ -51,6 +51,8 @@
 )
 #show table.cell.where(y: 0): strong
 
+#show link: it => text(fill: blue, it)
+
 #set figure(placement: none)
 
 #show figure.caption: set text(size: 10pt)
@@ -246,6 +248,7 @@
 
 - Process with scientific societies unclear
 
+#v(1cm)
 
 == Newcomer category
 
@@ -294,7 +297,7 @@
     table.cell(rowspan: 2)[Motivation letter],
     [Relevance of RS for community],
     [CV],
-    table.cell(rowspan: 3)[GitHub statistics],
+    table.cell(rowspan: 3)[Community Engagement,\ GitHub statistics],
     [Stars, Forks, Watch], [Contributor growth, Pull requests], [ Issues, Commit frequency],
     ),
   caption: [Filter system],
@@ -303,7 +306,9 @@
 
 
 
-= Jury composition
+= Jury composition & award ceremony
+
+== Jury composition
 
 - "Scientific Excellence" category: Probably 1 jury for each sub-category (4 in total) -> domain knowledge important 
 
@@ -313,18 +318,96 @@
 
 - Using evaluation system provided by us (see below)
 
+#v(1cm)
+
+#underline[List of relevant people for jury:]
+- #link("https://fg-rse.gi.de/fachgruppe/leitungsgremium")[GI RSE Fachgruppe Leitungsgremium]
+
+- deRSE conference orga team; see #link("https://events.hifis.net/event/2945/page/854-organizers")[deRSE26]
+
+- #link("https://www.sub.uni-goettingen.de/en/research/projects/project-details/corses")[CORSES — Collaborative RSE Services project]
+
+- #link("https://find-software.org/#acknowledgements")[find.software project]
+
+- #link("https://dl.acm.org/profile/81387591102")[Ben Hermann], mentioned in a previous AK meeting
+
+#v(1cm)
+
+== Award ceremony 
+
+- idea: INFORMATIK 27 (2027-09)
+- invite someone from DFG; see #link("https://www.dfg.de/de/foerderung/foerdermoeglichkeiten/programme/infrastruktur/lis/lis-foerderangebote/forschungssoftwareinfrastrukturen")[DFG Förderprogramm "Forschungssoftwareinfrastrukturen"]
+
+#v(1cm)
+
+
 = Evaluation criteria and indicators
+
+== Artefact Track
+
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto, auto),
+    rows: (auto, auto, auto),
+    fill: rgb("ADD8E6"),
+    [], [Software\ Engineering Level], [Research\ Impact], [Community\ Engagement], [FAIRness\ &\ Reproducability], [Maintainability\ &\ Sustainability],
+    [Definition], [], [], [], [], [], 
+    [Indicators], [], [], [], [], [], 
+    [Sources], [], [], [], [], [], 
+  ),
+  caption: [Evaluation criteria and indicators for the Artefact Track category],
+)
+
+Each criterion is rated on an ordinal scale, from 1 (minimum) to 5 (outstanding). 
+
+== Scientific Excellence
+
+
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto, auto),
+    rows: (auto, auto, auto),
+    fill: rgb("#90EE90"),
+    [], [Software\ Engineering Level], [Research\ Impact], [Community\ Engagement], [FAIRness\ &\ Reproducability], [Maintainability\ &\ Sustainability],
+    [Definition], [], [], [], [], [], 
+    [Indicators], [], [], [], [], [], 
+    [Sources], [], [], [], [], [], 
+  ),
+  caption: [Evaluation criteria and indicators for the Scientific Excellence category],
+)
+
+Each criterion is rated on an ordinal scale, from 1 (minimum) to 5 (outstanding). 
+
+#v(1cm)
+
+== Newcomer
+
+#figure(
+  table(
+    columns: (auto, auto, 1fr),
+    rows: (auto, auto, auto),
+    fill: rgb("#FFB5E5"),
+    [], [Community\ Engagement], [],
+    [Definition], [], [],
+    [Indicators], [], [],
+    [Sources], [], [],
+  ),
+  caption: [Evaluation criteria and indicators for the Newcomer category],
+)
+
+Each criterion is rated on an ordinal scale, from 1 (minimum) to 5 (outstanding). 
+
+
+
+
+
+
 
 
 
 
 // Bibliography with Chicago Author-Date style
 // #bibliography("references_adsl_v2.bib", title: "References", style: "chicago-author-date")
-
-
-
-
-
 
 
 
