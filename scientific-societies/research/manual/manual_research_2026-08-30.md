@@ -15,23 +15,23 @@
 |                                   | Sozial- und Verhaltenswissenschaften        | [Deutsche Vereinigung für Politikwissenschaft e.V. (DVPW)](https://www.dvpw.de)      | Politikwissenschaft | nein |  | | | 
 |                                   | Sozial- und Verhaltenswissenschaften        | [Deutsche Arbeitsgemeinschaft Statistik e.V. (DAGStat)](https://www.dagstat.de)      | Statistik | nein |  | | | 
 |                                   | Sozial- und Verhaltenswissenschaften        | [Deutschen Statistischen Gesellschaft e.V. (DStatG)](https://dstatg.de)      | Statistik | nein |  | | | 
-| Lebenswissenschaften              | Biologie                                    | [Verband Biologie, Biowissenschaften und Biomedizin in Deutschland e.V. (VBIO)](https://www.vbio.de)        | | nein | | | |
-|                                   | Medizin                                     | [Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften e.V. (AWMF)](https://www.awmf.org) | | ja | | | |
-|                                   | Medizin (Neurowissenschaften)               | [Neurowissenschaftliche Gesellschaft e.V. (NWG)](https://nwg-info.de/de) | | nein | | | |
-|                                   | Agrar-, Forstwissenschaften und Tiermedizin | [Dachverband wissenschaftlicher Gesellschaften der Agrar-, Forst-, Ernährungs-, Veterinär- und Umweltforschung e.V. (DAF)](https://www.agrarforschung.de)         | nein | | | | |
-|                                   | Agrar-, Forstwissenschaften und Tiermedizin | [Deutsche Veterinärmedizinische Gesellschaft e.V. (DVG)](https://www.dvg.de)         | nein | | | | |
-| Naturwissenschaften               | Chemie                                      | [Gesellschaft Deutscher Chemiker e.V. (GDCh)](https://www.gdch.de)         | nein | | | | |
-|                                   | Physik                                      | [Deutsche Physikalische Gesellschaft e.V. (DPG)](https://www.dpg-physik.de)         | nein | | | | |
-|                                   | Mathematik                                  | [Deutsche Mathematiker-Vereinigung e.V. (DMV)](https://www.mathematik.de)         | nein | | | | |
-|                                   | Geowissenschaften                           | [Dachverband der Geowissenschaften e.V. (DVGeo)](https://www.dvgeo.org)         | nein | | | | |
-|                                   | Geowissenschaften                           | [Deutsche Gesellschaft für Geowissenschaften e.V. (DGGV)](https://www.dggv.de)         | nein | | | | |
-| Ingenieurwissenschaften           | Maschinenbau und Produktionstechnik         | [Gesellschaft für Angewandte Mathematik und Mechanik e.V. (GAMM)](https://www.gamm.org)         | nein | | | | |
-|                                   | Maschinenbau und Produktionstechnik         | [Deutsche Gesellschaft für Luft- und Raumfahrt e.V. (DGLR)](https://www.dglr.de/startseite/)         | nein | | | | |
-|                                   | Wärmetechnik/Verfahrenstechnik              | [DECHEMA Gesellschaft für Chemische Technik und Biotechnologie e.V.](https://dechema.de)         | nein | | | | |
-|                                   | Materialwissenschaft und Werkstofftechnik   | [Deutsche Gesellschaft für Materialkunde e.V. (DGM)](https://dgm.de)         | nein | | | | |
-|                                   | Informatik, System- und Elektrotechnik      | [Gesellschaft für Informatik e.V. (GI)](https://gi.de)  | -  | | | | |
-|                                   | Informatik, System- und Elektrotechnik      | [Deutscher Verband Technisch-Wissenschaftlicher Vereine e.V. (DVT)](https://www.dvt-net.de)  | nein  | | | | |
-|                                   | Bauwesen und Architektur                    | [Deutsche Gesellschaft für Geotechnik e.V. (DGGT)](https://www.dggt.de)         | nein | | | | |
+| Lebenswissenschaften              | Biologie                                    | [Verband Biologie, Biowissenschaften und Biomedizin in Deutschland e.V. (VBIO)](https://www.vbio.de)        | Biologie | nein | | | |
+|                                   | Medizin                                     | [Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften e.V. (AWMF)](https://www.awmf.org) | Medizin | ja | | | |
+|                                   | Medizin               | [Neurowissenschaftliche Gesellschaft e.V. (NWG)](https://nwg-info.de/de) | Neurowissenschaften | nein | | | |
+|                                   | Agrar-, Forstwissenschaften und Tiermedizin | [Dachverband wissenschaftlicher Gesellschaften der Agrar-, Forst-, Ernährungs-, Veterinär- und Umweltforschung e.V. (DAF)](https://www.agrarforschung.de)         | Agrar-, Forstwissenschaften und Tiermedizin | nein | | | |
+|                                   | Agrar-, Forstwissenschaften und Tiermedizin | [Deutsche Veterinärmedizinische Gesellschaft e.V. (DVG)](https://www.dvg.de)         | Tiermedizin | nein | | | |
+| Naturwissenschaften               | Chemie                                      | [Gesellschaft Deutscher Chemiker e.V. (GDCh)](https://www.gdch.de)         | Chemie | nein | | | |
+|                                   | Physik                                      | [Deutsche Physikalische Gesellschaft e.V. (DPG)](https://www.dpg-physik.de)         | Physik | nein| | | |
+|                                   | Mathematik                                  | [Deutsche Mathematiker-Vereinigung e.V. (DMV)](https://www.mathematik.de)         | Mathematik | nein| | | |
+|                                   | Geowissenschaften                           | [Dachverband der Geowissenschaften e.V. (DVGeo)](https://www.dvgeo.org)         | Geowissenschaften | nein| | | |
+|                                   | Geowissenschaften                           | [Deutsche Gesellschaft für Geowissenschaften e.V. (DGGV)](https://www.dggv.de)         | Geowissenschaften | nein | | | |
+| Ingenieurwissenschaften           | Maschinenbau und Produktionstechnik         | [Gesellschaft für Angewandte Mathematik und Mechanik e.V. (GAMM)](https://www.gamm.org)         | Angewandte Mathematik und Mechanik | nein | | | |
+|                                   | Maschinenbau und Produktionstechnik         | [Deutsche Gesellschaft für Luft- und Raumfahrt e.V. (DGLR)](https://www.dglr.de/startseite/)         | Luft- und Raumfahrt | nein | | | |
+|                                   | Wärmetechnik/Verfahrenstechnik              | [DECHEMA Gesellschaft für Chemische Technik und Biotechnologie e.V.](https://dechema.de)         | Chemische Technik und Biotechnologie | nein | | | |
+|                                   | Materialwissenschaft und Werkstofftechnik   | [Deutsche Gesellschaft für Materialkunde e.V. (DGM)](https://dgm.de)         | Materialwissenschaft | nein | | | |
+|                                   | Informatik, System- und Elektrotechnik      | [Gesellschaft für Informatik e.V. (GI)](https://gi.de)  | Informatik  | nein | | | |
+|                                   | Informatik, System- und Elektrotechnik      | [Deutscher Verband Technisch-Wissenschaftlicher Vereine e.V. (DVT)](https://www.dvt-net.de)  | Informatik, System- und Elektrotechnik   |nein | | | |
+|                                   | Bauwesen und Architektur                    | [Deutsche Gesellschaft für Geotechnik e.V. (DGGT)](https://www.dggt.de)         | Geotechnik | nein| | | |
 
 
 
