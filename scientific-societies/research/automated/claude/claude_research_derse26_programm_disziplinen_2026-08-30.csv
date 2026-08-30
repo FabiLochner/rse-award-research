@@ -1,0 +1,193 @@
+id;time;type;title;speakers_affiliations;disciplines
+250;3/3/26, 9:00 AM;Workshop or Hackathon;Trainer, Tutor, Consultant, Developer: Investing in the Full and Sustainable RSE Spectrum;Nicholas Del Grosso (iBehave Open Technology Support Group, Uni-Bonn);RSE
+139;3/3/26, 9:00 AM;Meet-Up or BOF;Vernetzungstreffen der geförderten Projekte des DFG-Förderprogramms „Forschungssoftwareinfrastrukturen“;Benedikt Wirth (Deutsche Forschungsgemeinschaft);RSE
+324;3/3/26, 10:30 AM;Meet-Up or BOF;NFDI4ING Community Meeting “Construct Tomorrow with Software”;Bernd Flemisch;Ingenieurwissenschaften (allg./NFDI4ING)
+220;3/3/26, 11:00 AM;Meet-Up or BOF;RSEs within Leibniz Association;Lavinia Baumstark;RSE
+325;3/3/26, 1:30 PM;;Official Welcome;"Bernd Flemisch (University of Stuttgart); Jan Linxweiler (Technische Universität Braunschweig); Stephan Janosch (MPI-CBG)";(kein inhaltlicher Vortrag / organisatorisch)
+323;3/3/26, 2:00 PM;;What it takes to run a large mathematical open source library;Wolfgang Bangerth (Colorado State University);Mathematik
+231;3/3/26, 3:30 PM;Tutorial or Skill-Up;Beyond Unit Tests - Advancing Testing Strategies for Research Software;"Prof. Anna-Lena Lamprecht (University of Potsdam); Sebastian Müller (University of Potsdam)";"RSE; Informatik"
+176;3/3/26, 3:30 PM;Talk-yRSE (15min + 5min);RSE4PhD – How software engineering tools can improve your PhD journey;Leonard Willeke (Deutsches Zentrum für Luft- und Raumfahrt e.V. (DLR);RSE
+247;3/3/26, 3:30 PM;Talk (15min + 5min);Shared-memory parallelism and performance portability in the ESPResSo package for particle- and lattice-based simulations;Dr Jean-Noël Grad (University of Stuttgart);"Physik; Chemie; Wärmetechnik/Verfahrenstechnik"
+207;3/3/26, 3:30 PM;Talk-yRSE (15min + 5min);SHOWME.how to Manage Heterogeneity in Model-based Engineering Workflows;Alan Jason Correa (RWTH Aachen University);"Ingenieurwissenschaften (allg.); Informatik"
+144;3/3/26, 3:50 PM;Talk-yRSE (15min + 5min);Accessible and Reproducible HPC Performance Data in waLBerla;Michael Zikeli (FAU);Informatik
+228;3/3/26, 3:50 PM;Talk-yRSE (15min + 5min);Easy, collaborative benchmarking with the extended benchmarking automation tool xbat;Dr Willi Leinen (Helmut Schmidt University);Informatik
+269;3/3/26, 3:50 PM;Talk (15min + 5min);Four years of experience teaching Simulation Software Engineering;Benjamin Uekermann (University of Stuttgart);"RSE; Ingenieurwissenschaften (allg.)"
+186;3/3/26, 4:10 PM;Talk (15min + 5min);An Interface from M++ to Ginkgo for Accelerated Linear Algebra on HPCs;Tim Schrader (Karlsruher Institut für Technologie (KIT);"Physik; Medizin; Materialwissenschaft und Werkstofftechnik; Informatik"
+285;3/3/26, 4:10 PM;Talk (15min + 5min);Documenting complex research software ecosystems;Mr Gerasimos Chourdakis (University of Stuttgart);RSE
+271;3/3/26, 4:10 PM;Talk-yRSE (15min + 5min);FAIR-FLEXI - A Trustworthy CFD Code for Simulation and Training;Daniel Appel;"Wärmetechnik/Verfahrenstechnik; Maschinenbau und Produktionstechnik"
+288;3/3/26, 4:30 PM;Talk (15min + 5min);eCoSimHPC: Scaling up sector-coupled energy system analysis with RSE support;Dr Glen Houston Hunter (Kalrsruher Institut für Technologie);Wärmetechnik/Verfahrenstechnik
+259;3/3/26, 4:30 PM;Talk-yRSE (15min + 5min);FRADS-GYM: A Reinforcement Learning Framework for Holistic Building Automation with Energy and Daylight Simulation;Silas Kalmbach;"Bauwesen und Architektur; Informatik"
+199;3/3/26, 4:30 PM;Talk (15min + 5min);Teaching Digital Literacy - From Python Notebooks to Packages;Magnus Karl Moritz Hagdorn (Charité Universitätsmedizin Berlin);RSE
+142;3/3/26, 6:00 PM;Poster;The Neural Dynamics of Strategic Reasoning in Transformer Language Models;"Dr Enrico Ferrea; Vinicius Ferraz (Karlsruhe Institute of Technology)";"Sozial- und Verhaltenswissenschaften; Informatik"
+260;3/3/26, 6:01 PM;Poster;Requirement Analysis and Use Case Engineering via ethnographic methods –  Negotiating FAIRness for Sensitive Interview Transcript Data;Sabina Mollenhauer (Universität Vechta);"Geisteswissenschaften; Sozial- und Verhaltenswissenschaften"
+146;3/3/26, 6:02 PM;Demo;A New E-Learning Platform in Helmholtz Tailored to MOOCs and RSE Trainings;"Mr Christian Hueser (Helmholtz-Zentrum Dresden - Rossendorf e.V. (HZDR); Norbert Spyra";RSE
+160;3/3/26, 6:04 PM;Demo;The Kieker Observability Framework for Analyzing and Visualizing the Software Architecture of Existing Software Systems;Shinhyung Yang (Software Engineering Group, Department of Computer Science, Kiel University);Informatik
+181;3/3/26, 6:05 PM;Demo;A Digital-Twin Platform for Offshore Renewable Operations: Software Design and Validation;Dr Naseem Ali (Helmholtz-Zentrum Hereon);"Geowissenschaften; Maschinenbau und Produktionstechnik"
+159;3/3/26, 6:06 PM;Demo;Accessing and processing EPMA data through an Electronic Lab Notebook and a web-based Graphical User Interface;Dominik C. Hezel;Geowissenschaften
+185;3/3/26, 6:07 PM;Demo;From Assessment to Improvement: The EVERSE Toolchain for High-Quality Research Software;Faruk Diblen (Netherlands eScience Center);RSE
+194;3/3/26, 6:08 PM;Demo;MAUS in progess - Machine Automated Support for Software Management Plans;Laura Bahamón (Max Planck Digital Library);RSE
+195;3/3/26, 6:09 PM;Demo;A FAIR and Scalable Software Infrastructure for Multimodal Research Data Management in Surgical Data Science and the Tactile Internet;"Marie Luise Müller (Centre for the Tactile Internet with Human-in-the-Loop (CeTI), TUD Dresden University of Technology, Dresden, Germany; Department of Visceral, Thoracic and Vascular Surgery, Faculty of Medicine and University Hospital Carl Gustav Carus, TUD Dresden University of Technology, Fetscherstraße 74, 01307, Dresden, Germany)";"Medizin; Informatik"
+241;3/3/26, 6:10 PM;Demo;Python Packaging Workflow with Pixi: A Hands-On Demo;Priyanka ojha;"RSE; Informatik"
+275;3/3/26, 6:11 PM;Demo;SLUMBER: Towards an Open-Source Framework for Conducting Sleep Experiments within the Home Environment;"Mr Samuel Morgan (University of Stuttgart); Mr Ömer Ergun (University of Stuttgart)";"Medizin; Neurowissenschaften"
+299;3/3/26, 6:12 PM;Demo;Inclusivity in Research Software Education: the iBehave Neuroscience Consortium's Open Technology Support Group;"Dr Atle E. Rimehaug (iBehave Open Technology Support Group, University of Bonn); Dr Nicholas Del Grosso (iBehave Open Technology Support Group, Uni-Bonn); Dr Ole Bialas (iBehave Open Technology Support Group, University of Bonn); Dr Sangeetha Nandakumar (iBehave Open Technology Support Group, University of Bonn)";Neurowissenschaften
+155;3/3/26, 6:13 PM;Poster;Scaling training to infinity... and beyond!;Raniere Gaia Costa da Silva (GESIS - Leibniz-Institut für Sozialwissenschaften);RSE
+201;3/3/26, 6:14 PM;Poster;Bridging Computational Biology and Software Engineering: A Deep Learning Framework for Alternative Splicing Analysis;Anamaria Elek (Heidelberg University);"Biologie; Informatik"
+203;3/3/26, 6:15 PM;Poster;The KODAQS Toolbox: An Open Educational Resource for Ensuring Data Quality;Jun Sun (GESIS - Leibniz Institute for the Social Sciences);Sozial- und Verhaltenswissenschaften
+204;3/3/26, 6:16 PM;Poster;Generating expression templates for algorithmic differentiation on domain specific languages;Dr Max Sagebaum (SciComp - University of Kaiserslautern-Landau (RPTU);"Mathematik; Informatik"
+309;3/3/26, 6:17 PM;Poster;You (don't) simply press a button to transcribe an interview!;Dr Eckhard Kadasch (zedif, Friedrich-Schiller-Universität Jena);"Geisteswissenschaften; Sozial- und Verhaltenswissenschaften"
+243;3/3/26, 6:18 PM;Poster;Performance Made Visible: A Tool-Based Exploration of HPC Applications;Krishna Manda (University of Bonn);Informatik
+216;3/3/26, 6:19 PM;Poster;"The Interdisciplinary Challenge: Making ""Data + Software + Context"" Containers Usable for All Scientists";Lars Florian Meiendresch (Gesellschaft für Informatik e.V.);Informatik
+225;3/3/26, 6:20 PM;Poster;RSE of a Quantum Transport Code and its Effects;Christoph Conrads (Jülich Supercomputing Centre);"Physik; Informatik"
+283;3/3/26, 6:21 PM;Poster;Using NLP to Explore Conceptual Thinking in Scientific Workflow Development;Anjali Rajesh Badlani (Universität Potsdam, Institut für Informatik und Computational Science);Informatik
+296;3/3/26, 6:22 PM;Poster;HisQu: Ontology-based Semantic Research Infrastructure for Historical Sources;Samuel Glowka (Friedrich-Schiller-Universität Jena);Geisteswissenschaften
+294;3/3/26, 6:23 PM;Poster;junifer : efficient extraction of neuroimaging features;Synchon Mandal;Neurowissenschaften
+140;3/3/26, 6:24 PM;Poster;Software CaRD - Decentralized (Software) Metadata Curation;"David Pape (Helmholtz-Zentrum Dresden - Rossendorf e.V.); Oliver Bertuch (Forschungszentrum Jülich)";RSE
+147;3/3/26, 6:25 PM;Poster;TrixiParticles.jl: High-performance particle simulations in Julia;Sven Berger (Hereon);"Physik; Wärmetechnik/Verfahrenstechnik; Informatik"
+234;3/3/26, 6:26 PM;Poster;Project-W: A Self-Hostable and Privacy-Focused Transcription Platform;Julian Fabian Partanen (Scientific Software Center, Heidelberg University);"RSE; Medizin"
+168;3/3/26, 6:28 PM;Poster;OCTOPOS.jl -- A user-friendly tool for synonymous genetic code optimization;Simon Christ (Leibniz Universität Hannover);Biologie
+174;3/3/26, 6:29 PM;Poster;Enhancing Reproducibility in Computational Workflows: Linking Semantics, Metadata, and Ontologies;Pavan L. Veluvali (Max Planck Institute for Dynamics of Complex Technical Systems);"Ingenieurwissenschaften (allg.); Informatik"
+177;3/3/26, 6:30 PM;Poster;Recovering Knowledge from old Code - Part 2;Fredo Erxleben (Helmholtz-Zentrum Dresden-Rossendorf);Informatik
+200;3/3/26, 6:31 PM;Poster;MaRDIMark: the MaRDI benchmarking framework and its instances;Ashwin Nayak (Max Planck Institute for Dynamics of Complex Technical Systems);Mathematik
+209;3/3/26, 6:32 PM;Poster;The Bio-Structure Hub: Accessible AI Structure Prediction for Life Science Researchers;Christine Schulz;"Biologie; Chemie"
+211;3/3/26, 6:33 PM;Poster;Digital Twin technology for porous media laboratory experiments;Eirik Keilegavlen (University of Bergen);"Geowissenschaften; Wärmetechnik/Verfahrenstechnik"
+219;3/3/26, 6:34 PM;Poster;Static and Dynamic Analysis of Python-based Research Software;Shinhyung Yang (Software Engineering Group, Department of Computer Science, Kiel University);Informatik
+224;3/3/26, 6:35 PM;Poster;MFSE – MicroFossil Segmentation Editor – An application for editing segmentations of foraminifera shells (microfossils) derived from x-ray µCT;Michael Georg Siccha Rojas (MARUM / University Bremen);Geowissenschaften
+229;3/3/26, 6:36 PM;Poster;Artifact Resource Publication Process in Research Data Management Container Creation (RDMC) Workflow;Safial Islam Ayon (Universität Potsdam);RSE
+249;3/3/26, 6:37 PM;Poster;Trainer, Tutor, Coach, Consultant, Developer: Investing in the Full and Sustainable RSE Spectrum;Nicholas Del Grosso (iBehave Open Technology Support Group, Uni-Bonn);RSE
+257;3/3/26, 6:38 PM;Poster;Requirements for a Collaborative and Efficient Scientific Software Support Architecture;Camilla Lüttgens (RWTH Aachen University);RSE
+258;3/3/26, 6:39 PM;Poster;Double back-end design for sustainable and mockable data communication software;Mr Thibaut Oprinsen (Laboratoire d'Annecy de Physique Des Particules);Physik
+267;3/3/26, 6:40 PM;Poster;Advancing Data Analysis and Software Development for Biomedical Research with Standardized Processes;Christoph Kampf;"Medizin; Biologie"
+272;3/3/26, 6:41 PM;Poster;Software Curation and Reporting Dashboard (Software CaRD);"Nitai Heeb; Sophie Kernchen";RSE
+286;3/3/26, 6:42 PM;Poster;RSE Perspectives on Software/Hardware Challenges in Human-Centered Visual Computing Research;Mr Sergej Geringer (University of Stuttgart);Informatik
+310;3/3/26, 6:43 PM;Poster;Refining the Multi-Dimensional Category System;Lars Michel (University of Potsdam);Informatik
+153;3/3/26, 6:44 PM;Poster;RSE across the NFDI – Connecting Infrastructure and Community through FAIR4RS Practice;"Florian Thiery (Computeranwendungen und quantitative Methoden in der Archäologie (CAA) e.V.); Bernd Flemisch (University of Stuttgart)";"RSE; Geisteswissenschaften"
+154;3/3/26, 6:45 PM;Poster;Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate and Geoarchaeological Research;Florian Thiery (Research Squirrel Engineers Network);"Geowissenschaften; Geisteswissenschaften"
+157;3/3/26, 6:46 PM;Poster;Semantic Modelling and Performance of (Geo-)Spatial Information in Knowledge Graphs and Heterogeneous Information Networks;Florian Thiery (Leibniz-Zentrum für Archäologie (LEIZA);"Geisteswissenschaften; Geowissenschaften"
+162;3/3/26, 6:47 PM;Poster;BinAC2 - Cluster for Bioinformatics, Astrophysics and Geosciences;Felix Bartusch (University of Tübingen);"Biologie; Physik; Geowissenschaften"
+165;3/3/26, 6:48 PM;Poster;Embedded Artificial Neural Networks for Energy-Restricted Edge-Computing Applications;Alperen Aksoy (ICA (PGI-4) - Forschungszentrum Jülich GmbH);"Physik; Informatik"
+169;3/3/26, 6:49 PM;Poster;FOCAL: an open source code for microwaves in magnetized plasmas;Alf Kohn-Seemann (Uni Stuttgart);Physik
+172;3/3/26, 6:50 PM;Poster;4C Multiphysics: A Modular Framework for Multiphysics Simulation and its Way to Open Source;Georg Hammerl (Helmholtz-Zentrum Hereon);"Maschinenbau und Produktionstechnik; Wärmetechnik/Verfahrenstechnik"
+173;3/3/26, 6:51 PM;Poster;A Framework for Consistent Measurement Workflows across IC Development, Verification and Data Management;"Daniel Keßel (Peter Grünberg Institute (PGI), Integrated Computing Architectures (ICA | PGI-4), Forschungszentrum Jülich GmbH); Klara Schnorrenberg (Peter Grünberg Institute (PGI), Integrated Computing Architectures (ICA | PGI-4), Forschungszentrum Jülich GmbH)";"Physik; Informatik"
+178;3/3/26, 6:52 PM;Poster;Sensor Scan Simulation for Automated Sensor Tuning of Gate-Defined Semiconductor Quantum Dots;Benjamin Papajewski (Peter Grünberg Institute - Integrated Computing Architectures (ICA / PGI-4), Forschungszentrum Jülich GmbH);Physik
+192;3/3/26, 6:53 PM;Poster;Navigating the RSE Learning Landscape: A Review of Training Opportunities;"Dr Birte Heinemann (RWTH Aachen University); Jasmin Hartanto (RWTH Aachen University)";RSE
+198;3/3/26, 6:54 PM;Poster;Geothermal exploration in a virtual laboratory: workflows and interactive tools;Matthias Volk (GFZ Helmholtz Centre for Geosciences);Geowissenschaften
+202;3/3/26, 6:55 PM;Poster;Reproducibility Practices in Scientific Computing: A Community Survey;"Felix Bartusch (University of Tübingen); Christian Meesters (Johannes Gutenberg Universität Mainz)";RSE
+208;3/3/26, 6:56 PM;Poster;Legacy Software in Research: Best Practices for Sustainable RSE on the Example of BayesValidRox;Rebecca Kohlhaas;"RSE; Ingenieurwissenschaften (allg.)"
+210;3/3/26, 6:57 PM;Poster;find.software: Foundations for Interdisciplinary Discovery of (Research) Software;"Dr Daniel Mietchen (FIZ Karlsruhe); Ronny Gey (Helmholtz Centre for Environmental Research - UFZ)";RSE
+212;3/3/26, 6:58 PM;Poster;Developing and maintaining software for multiphysics simulations;Eirik Keilegavlen (University of Bergen);"Maschinenbau und Produktionstechnik; Geowissenschaften"
+217;3/3/26, 6:59 PM;Poster;mailcom: Pseudonymization Tool for Textual Data;Dr Tuyen Le (Heidelberg University);"RSE; Medizin"
+218;3/3/26, 7:00 PM;Poster;Software testing and their absence in research software;Lars Michel (University of Potsdam);RSE
+222;3/3/26, 7:01 PM;Poster;Scaling Python Functions for Exascale Computing with executorlib;Jan Janssen (Max Planck Institute for Sustainable Materials);"Materialwissenschaft und Werkstofftechnik; Informatik"
+223;3/3/26, 7:02 PM;Poster;Design and Integration of Submodels in the Modular Earth Submodel System (MESSy): A Case Study with JSBACH;Madeleine Heidl (Max-Planck-Institute for Chemistry);"Geowissenschaften; Chemie"
+239;3/3/26, 7:03 PM;Poster;Result Assessment Tool (RAT): An Open-Source Toolkit for Conducting Studies based on Search Results;"Sebastian Sünkler (HAW Hamburg); Tuhina Kumar (HAW Hamburg)";"Sozial- und Verhaltenswissenschaften; Geisteswissenschaften"
+242;3/3/26, 7:04 PM;Poster;Towards a Metadata Schema for Research Software Quality;Camilla Lüttgens (RWTH Aachen University);RSE
+248;3/3/26, 7:05 PM;Poster;Reproducible Model Results: Techniques Applied in the Simulation Framework FAME;Christoph Schimeczek (Deutsches Zentrum für Luft- und Raumfahrt e.V.);"Wärmetechnik/Verfahrenstechnik; Ingenieurwissenschaften (allg.)"
+255;3/3/26, 7:06 PM;Poster;ConnOSS and Metadata Extraction for Research Software;"Aida Jafarbigloo (Carl von Ossietzky University Oldenburg); Lu Gan (GESIS Leibniz Institute for Social Sciences); Suhasini Venkatesh (ZB MED Information Centre for Life Sciences)";RSE
+262;3/3/26, 7:07 PM;Poster;SLURM-Powered VS Code: vscode-remote-hpc;Stefan Fuertinger (Ernst Strüngmann Institute (ESI) gGmbH for Neuroscience in Cooperation with Max Planck Society);"Informatik; Neurowissenschaften"
+277;3/3/26, 7:08 PM;Poster;Semantic Workflow Composition for Computational Materials Science;Nikolas Bertrand (University of Potsdam);"Materialwissenschaft und Werkstofftechnik; Informatik"
+279;3/3/26, 7:09 PM;Poster;User Engagement in Service Development: A Framework for Sustainable Research Data Services;Sandra Zaenkert (ZB MED - Information Center for Life Sciences);RSE
+280;3/3/26, 7:10 PM;Poster;ATLAS: An overview of the INF services in CRC 1667;David Leiser (Universität Stuttgart);Ingenieurwissenschaften (allg.)
+282;3/3/26, 7:11 PM;Poster;Integrating Artificial Intelligence and High-Performance Computing;Ayushya Pare (University of Bonn);Informatik
+322;3/3/26, 7:12 PM;Demo;We want your feedback! FutuRSI: the concept of a Research Software Institution for Germany;Dr Florian Mannseicher (de-RSE e.V. - Gesellschaft für Forschungssoftware);RSE
+287;3/3/26, 7:13 PM;Poster;bwRSE4HPC – Research Software Engineering Support for High-Performance Computing in Baden-Württemberg;Thomas Isensee (Scientific Software Center, Interdisciplinary Center for Scientific Computing (IWR), Heidelberg University, Heidelberg, Germany);"RSE; Informatik"
+289;3/3/26, 7:14 PM;Poster;LLM-Assisted Pipeline for Scraping and Validating Image-Based Datasets;Benjamin Bruns;Informatik
+291;3/3/26, 7:15 PM;Poster;DRI-focussed training for research facilitators and teams (DRIFT);Laura Moran (EPCC, University of Edinburgh);RSE
+292;3/3/26, 7:16 PM;Poster;Snake4MSR: An Automated Workflow Pipeline for Mining Software Repositories;Hyeokjin Kwon (Universität Potsdam, Institut für Informatik und Computational Science);Informatik
+293;3/3/26, 7:17 PM;Poster;Towards Curricular Recommendations for Master-Level Education in Research Software Engineering;Dr Julian Dehne (Gesellschaft für Informatik);RSE
+303;3/3/26, 7:18 PM;Poster;Leveraging NixOS for Seamless Setup of Workshop-Ready Laptops;Stephanie Reilly (Ernst Strüngmann Institute (ESI) for Neuroscience in Cooperation with Max Planck Society);"Informatik; Neurowissenschaften"
+304;3/3/26, 7:19 PM;Poster;User Training in Catalysis-Related Sciences: Experience Report on the Example of Repo4Cat;Volodymyr Kushnarenko (High-Performance Computing Center Stuttgart (HLRS), University of Stuttgart);Chemie
+298;3/3/26, 7:20 PM;Poster;FAIR data management in molecular heterogeneous catalysis and beyond;Mr Torsten Giess (University of Stuttgart);Chemie
+301;3/3/26, 7:21 PM;Poster;JoDaKISS -- A new data and software overlay journal;Dominik Göddeke;"RSE; Mathematik"
+306;3/3/26, 7:22 PM;Poster;Using a thematic analysis to identify stakeholders and software requirement artifacts for open science practices in CAQDAS;"Jan Kuester (University of Bremen); Prof. Karsten D. Wolf (University of Bremen)";"Sozial- und Verhaltenswissenschaften; Geisteswissenschaften"
+317;3/3/26, 7:23 PM;Poster;Another year of Progress in Machine-assisted Refactoring: what's new in Coccinelle;Michele Martone;Informatik
+311;3/3/26, 7:24 PM;Poster;genderTagger: Ein spielerisches RSE-Tool zur Gender-Annotation in Digital-Humanities-Workflows;"Dr Frederike Neuber (Berlin-Brandenburgische Akademie der Wissenschaften); Lou Klappenbach (Berlin-Brandenburgische Akademie der Wissenschaften); Tim Westphal (Berlin-Brandenburgische Akademie der Wissenschaften)";Geisteswissenschaften
+312;3/3/26, 7:25 PM;Poster;How to maintain research software usability as it evolves: Simple principles that reduce cognitive load for developers and users;James Bowyer (Scientific Software Center);RSE
+314;3/3/26, 7:26 PM;Poster;Standardizing Nextflow pipeline validation: A comparison of testing frameworks;Marie Anne Lataretu (Robert Koch Institute);"Biologie; Medizin"
+315;3/3/26, 7:27 PM;Poster;Project Management and User Support based on GitHub-Issues and Combination of Kanban and Scrum Approaches;Volodymyr Kushnarenko (High-Performance Computing Center Stuttgart (HLRS), University of Stuttgart);RSE
+319;3/3/26, 7:28 PM;Poster;Frisket - a CLI tool for managing your (La)TeX projects;Dr Jan Philipp Thiele (Technical University Braunschweig);RSE
+321;3/3/26, 7:29 PM;Poster;Towards a Modular Research Framework for Ontological Graphs;Edwin Carreno (Scientific Software Center);"RSE; Informatik"
+318;3/3/26, 7:30 PM;Poster;FSFE Posters;Michele Martone;RSE
+331;3/3/26, 7:31 PM;Poster;BenchTune and Kadi: Making research software development for accelerator physics FAIR;Felipe Donoso Aguirre;Physik
+333;3/3/26, 7:32 PM;Poster;Scientific Workflows with SimStack for Advanced Material Simulations within German and European digitalization initiatives;Joerg Schaarschmidt (Karlsruher Institute of Technology);Materialwissenschaft und Werkstofftechnik
+326;3/4/26, 9:00 AM;;Digital sovereignty in the age of software forges: why preserving source code matters;Morane Gruenpeter;RSE
+158;3/4/26, 11:00 AM;Talk (15min + 5min);Building Bridges Between Scientific Domains – TeSSHub as a Federated Training Catalogue Infrastructure;Oliver Knodel (Helmholtz-Zentrum Dresden-Rossendorf);"RSE; Biologie; Physik"
+215;3/4/26, 11:00 AM;Meet-Up or BOF;Developing the role and career pathways of RSEs in Germany: Current perspectives and future aims;"Florian Goth (Universität Würzburg); Frank Loeffler (Friedrich Schiller University Jena); Harald von Waldow (Thünen Institut); Jan Linxweiler (Technische Universität Braunschweig); Jan Philipp Thiele (Weierstrass Institute Berlin); Dr Jean-Noël Grad (Institute for Computational Physics, University of Stuttgart, Germany); Dr Jeremy Cohen (Imperial College London); Julian Dehne (Gesellschaft für Informatik); Leyla Jael Castro (ZB MED Information Centre for Life Sciences); Magnus Karl Moritz Hagdorn (Charité Universitätsmedizin Berlin); Simon Christ (Leibniz Universität Hannover)";RSE
+193;3/4/26, 11:00 AM;Talk-yRSE (15min + 5min);Exploring the Lifecycle of Research Software: Insights from a Literature Review and Empirical Study;Ms Aditi Punetha (RWTH Aachen University);RSE
+256;3/4/26, 11:00 AM;Talk (15min + 5min);HPC as a service – a user centric approach;Dr Uwe Konrad (HZDR);Informatik
+175;3/4/26, 11:00 AM;Talk-yRSE (15min + 5min);Towards a Modular and Data-Oriented Architecture for a Precise Orbit Determination Software Using Entity Component Systems;"Mr Marvin B. Stucke (Institute of Navigation, University of Stuttgart); Roman Krueckel (Institute of Navigation, University of Stuttgart)";"Geowissenschaften; Ingenieurwissenschaften (allg.)"
+300;3/4/26, 11:20 AM;Talk (15min + 5min);Building Trustworthy AI: Implementing a Cross-Center Solution for Hosting Local LLMs;Tobias Huste (Helmholtz-Zentrum Dresden-Rossendorf);Informatik
+227;3/4/26, 11:20 AM;Talk (15min + 5min);Green IT in Research Software Engineering;Giuditta Parolini (Museum für Naturkunde Berlin - Leibniz Institute for Evolution and Biodiversity Science);"Informatik; RSE"
+230;3/4/26, 11:20 AM;Talk-yRSE (15min + 5min);KIMMDY: Simulating Reactions in Molecular Dynamics;Kai Riedmiller (University Heidelberg);"Chemie; Biologie"
+149;3/4/26, 11:20 AM;Talk-yRSE (15min + 5min);Metadata for DiscoRSE, an Open Educational Resource for RSEs;Suhasini Venkatesh (ZB MED Information Centre for Life Sciences);RSE
+206;3/4/26, 11:40 AM;Talk-yRSE (15min + 5min);COBWEBpy: A GPU-Accelerated, Modular Framework for Scalable 3D Micro-CT Image Segmentation;Aman Mohan;Informatik
+196;3/4/26, 11:40 AM;Talk (15min + 5min);DLRs Inner Source Policy;"Ms Carina Haupt (German Aerospace Center (DLR); Tanja Führer (Deutsches Zentrum für Luft- und Raumfahrt (DLR)";RSE
+188;3/4/26, 11:40 AM;Talk (15min + 5min);RSpace: From Closed to Open-Source Research Infrastructure;Tilo Mathes (Research Space);"RSE; Informatik"
+180;3/4/26, 11:40 AM;Talk (15min + 5min);The Helmholtz Model Zoo: Enabling AI Model Sharing and Inference in the Helmholtz Cloud;Hans William Werners;Informatik
+233;3/4/26, 12:00 PM;Talk-yRSE (15min + 5min);An integrated open-source ecosystem for the storage and analysis of light exposure and visual experience data;"Salma M. Thalji (Technical University of Munich; Max Planck Institute for Biological Cybernetics)";"Neurowissenschaften; Medizin; Biologie"
+284;3/4/26, 12:00 PM;Talk (15min + 5min);Enhancing Accessibility to Semantic Search in LinkAhead using Large Language Models;Dr Alexander Schlemmer (IndiScale GmbH);"RSE; Informatik"
+164;3/4/26, 12:00 PM;Talk (15min + 5min);Growing an Open-Source Research Software Project: Challenges and Lessons Learned from Data Snack;Jonathan Ströbele (BNITM);Medizin
+191;3/4/26, 12:00 PM;Talk (15min + 5min);Understanding Research Software Engineering Workflows through Git Activity Data;Dr Birte Heinemann (RWTH Aachen University);Informatik
+270;3/4/26, 1:30 PM;Talk (15min + 5min);BenchTune and Kadi: Making research software development for accelerator physics FAIR;Felipe Donoso Aguirre;Physik
+320;3/4/26, 1:30 PM;Talk (15min + 5min);Beyond Hype and Panic: RSEs Navigating the Next Five AI-Driven Years;Sandra Gesing (UCSD);RSE
+145;3/4/26, 1:30 PM;Talk (15min + 5min);Research Software as a Microservice: An Integrated Architecture Proposal for Efficient Research Data Management;Hagen Peukert (Universität Hamburg);"RSE; Informatik"
+190;3/4/26, 1:30 PM;Talk (15min + 5min);Sustaining Science through Software: A Scoping Review of RSE Practices and Challenges;Jasmin Hartanto (RWTH Aachen University);RSE
+278;3/4/26, 1:30 PM;Workshop or Hackathon;World Café: Community Perspectives on Institutional RSE Support;"Aaron Mirko Reer (Gesellschaft für Informatik); Claire Wyatt (Forschungszentrum Jülich GmbH); Falk Schlegelmilch (Niedersächsische Staats- und Universitätsbibliothek Göttingen)";RSE
+182;3/4/26, 1:50 PM;Talk (15min + 5min);Introducing ConnOSS - Connected Open-Source Software;Leyla Jael Castro (ZB MED Information Centre for Life Sciences);RSE
+161;3/4/26, 1:50 PM;Talk (15min + 5min);Research Software Communism? What We Don’t Know about Practices of Use, Trust and Evaluation of and with Research Software Infrastructures;Dr Judith Hartstein (Deutsches Zentrum für Hochschul- und Wissenschaftsforschung (DZHW);Sozial- und Verhaltenswissenschaften
+183;3/4/26, 1:50 PM;Talk (15min + 5min);The many steps to more performance - a case study with IFOS3D;Begatim Bytyqi (KIT);Geowissenschaften
+240;3/4/26, 1:50 PM;Talk (15min + 5min);Training to Protect Research Integrity in the Age of AI-assisted Coding;Dr Toby Hodges (The Carpentries);RSE
+170;3/4/26, 2:10 PM;Talk-yRSE (15min + 5min);A metadata extraction tool for GitLab repositories;Akhilan Ashokan (ZB MED Information Centre for Life Sciences);"RSE; Informatik"
+163;3/4/26, 2:10 PM;Talk (15min + 5min);Algorithmic algorithm development with LLMs: better algorithms through better software?;Mr Lukas Scheib (Deutsches Zentrum für Luft- und Raumfahrt DLR);Informatik
+197;3/4/26, 2:10 PM;Talk (15min + 5min);Building Archivable Research Environments: The NFDIxCS Architecture;Jan Bernoth (Universität Potsdam);Informatik
+151;3/4/26, 2:10 PM;Talk (15min + 5min);Interprocess fast communication using mmap;Daniel Ciolacu;Informatik
+297;3/4/26, 2:30 PM;Talk-yRSE (15min + 5min);A Framework for Ensuring Reproducibility in LLM-Assisted Research;Mr Maximilian Frank (Ludwig-Maximilians-Universität München);"RSE; Informatik"
+268;3/4/26, 2:30 PM;Talk (15min + 5min);Automating Knowledge Graph Composition for Multi-Scale and Interdisciplinary Research;Sam Waseda (Max Planck Institute for sustainable materials);"Materialwissenschaft und Werkstofftechnik; Informatik"
+316;3/4/26, 2:30 PM;Talk (15min + 5min);Interdisciplinarity: Lessons learnt from a bottom-up international Collaboration on HPC Code Refactoring;Michele Martone;"Informatik; RSE"
+171;3/4/26, 2:30 PM;Talk (15min + 5min);Technology Mapping within the network of Specialized Information Services;"Dr Thomas Risse (Goethe University Frankfurt, University Library); Mr Ralf Konrad (Goethe University Frankfurt, University Library); Mr Asmerom Tommy Mesfin (A.Mesfin@ub.uni-frankfurt.de)";Geisteswissenschaften
+253;3/4/26, 3:30 PM;Talk (15min + 5min);AI-assisted Model Driven Engineering;Mr Felix Neubauer (University of Stuttgart);Informatik
+205;3/4/26, 3:30 PM;Talk-yRSE (15min + 5min);Automating Data Integration and Publishing for Neuroimaging via LSLAutoBIDS;Manpa Barman (University of Stuttgart);Neurowissenschaften
+308;3/4/26, 3:30 PM;Meet-Up or BOF;Exploring diverse community building for Research Software.;"Claire Wyatt (JSC/FZJ); Frank Loeffler (Friedrich Schiller University Jena); Heidi Seibold (Digital Research Academy); Michele Mesiti (KIT); Nicholas Del Grosso (iBehave Open Technology Support Group, Uni-Bonn)";RSE
+273;3/4/26, 3:30 PM;Talk (15min + 5min);Lowering Barriers, Raising Sustainability: A Sustainable, linked and open Redesign of a Metadata Editor for Digital Musicology;Annabella Schmitz (Academy of Sciences and Literature | Mainz);Geisteswissenschaften
+238;3/4/26, 3:50 PM;Talk (15min + 5min);From Student Project to Non-Profit: The Evolution and Professionalization of RAT;Sebastian Sünkler (HAW Hamburg);Sozial- und Verhaltenswissenschaften
+261;3/4/26, 3:50 PM;Talk (15min + 5min);Innovative Pathways for Equitable Access to Medical Knowledge for maternal and child health care;Katrin Schoning-Stierand (University of Hamburg);"Medizin; Informatik"
+264;3/4/26, 3:50 PM;Talk-yRSE (15min + 5min);pyFuRNAce: An integrated design engine for RNA origami;Luca Monari (Heidelberg University);"Biologie; Chemie"
+266;3/4/26, 4:10 PM;Talk (15min + 5min);Automated Generation of Variants of the MetaCascabel Pipeline for Metagenomic Sequencing;Charlotte Grunert;Biologie
+152;3/4/26, 4:10 PM;Talk (15min + 5min);chublets.software – Building a FAIR Software Marketplace for Cultural Heritage;Florian Thiery (Computeranwendungen und quantitative Methoden in der Archäologie (CAA) e.V.);Geisteswissenschaften
+141;3/4/26, 4:10 PM;Talk (15min + 5min);Scenario Bundle Analysis Generator (SBAG);Vinicius Ferraz (Karlsruhe Institute of Technology);"Sozial- und Verhaltenswissenschaften; Informatik"
+327;3/4/26, 4:45 PM;;"Podiumsdiskussion ""Strukturierung des Forschungssoftware-Ökosystems in Deutschland""";"Anna-Lena Lamprecht (Universität Potsdam, Institut für Informatik und Computational Science); Dr Florian Mannseicher (de-RSE e.V. - Gesellschaft für Forschungssoftware); Heidi Seibold (Digital Research Academy); Jan Linxweiler (Technische Universität Braunschweig); Matthias Katerbow (Deutsche Forschungsgemeinschaft); Matthias Tichy (Ulm University); Dr Rainer Lange (Wissenschaftsrat)";RSE
+167;3/5/26, 9:00 AM;Talk (15min + 5min);A comparison across Software Management Plans;Leyla Jael Castro (ZB MED Information Centre for Life Sciences);RSE
+254;3/5/26, 9:00 AM;Talk (15min + 5min);Are Nix or Guix the answer to software provisioning on HPC clusters?;Denzel Wilson Thoppil (GWDG);Informatik
+276;3/5/26, 9:00 AM;Talk (15min + 5min);FutuRSI: One year into conceptualising a German research software institution;Dr Florian Mannseicher (de-RSE e.V. - Gesellschaft für Forschungssoftware);RSE
+237;3/5/26, 9:00 AM;Meet-Up or BOF;HPC Carpentry Community Meet-Up;"Marc-Andre Hermanns (RWTH Aachen University); Toby Hodges (The Carpentries)";"RSE; Informatik"
+148;3/5/26, 9:20 AM;Talk (15min + 5min);A platform concept for benchmarking simulation software;Jörg F. Unger (Bundesanstalt für Materialforschung und -prüfung);"Bauwesen und Architektur; Materialwissenschaft und Werkstofftechnik"
+252;3/5/26, 9:20 AM;Talk (15min + 5min);Developing Actionable Guidelines for FAIR Research Software;Alexander Struck (Humboldt-Universität zu Berlin, Berlin, Germany);RSE
+236;3/5/26, 9:20 AM;Talk (15min + 5min);Global and National Strengthening of the Research Software Community:  A Shared Vision for 2030;Michelle Barker (Research Software Alliance);RSE
+184;3/5/26, 9:40 AM;Talk (15min + 5min);EVERSE: Tools and services for software quality and FAIRness;"Elena Breitmoser (University of Edinburgh); Faruk Diblen (Netherlands eScience Center); Shraddha Rohidas Bajare (Square Kilometre Array Observatory)";"RSE; Physik"
+214;3/5/26, 9:40 AM;Talk (15min + 5min);Quality Unpacked: The EVERSE Reference Framework for Research Software;Giacomo Peru (University of Edinburgh);RSE
+307;3/5/26, 9:40 AM;Talk (15min + 5min);The Lifetime of PhD-Ware: a case study;Michele Mesiti;RSE
+245;3/5/26, 10:00 AM;Talk (15min + 5min);bwRSE4HPC – A blueprint for better research software in Baden-Württemberg;Dr Jasmin Hörter (KIT);"RSE; Informatik"
+302;3/5/26, 10:00 AM;Talk (15min + 5min);JuPedSim: From Obscure Executables to a Publicly Documented Library;Mr Kai Kratz;"Bauwesen und Architektur; Ingenieurwissenschaften (allg.)"
+187;3/5/26, 10:00 AM;Talk (15min + 5min);The MaRDI Open Interfaces Software Project for Scientific Computing;Dmitry Kabanov (Universität Münster);Mathematik
+189;3/5/26, 11:00 AM;Talk (15min + 5min);Developing an interactive climate-health platform as a team of RSEs: Components, roles, constellations;"Inga Ulusoy (University of Heidelberg); Mr James Bowyer (Heidelberg University); Edwin Carreno (Scientific Software Center); Dr Tuyen Le (Heidelberg University); Harald Mack (Interdisciplinary Center of scientific computing, Heidelberg University)";"Geowissenschaften; Medizin"
+138;3/5/26, 11:00 AM;Talk (15min + 5min);Giving up Github for RSE (or why it's complicated);Chung-hong Chan (GESIS);RSE
+263;3/5/26, 11:00 AM;Tutorial or Skill-Up;HPC Carpentry Instructor On-boarding;"Marc-Andre Hermanns (RWTH Aachen University); Toby Hodges (The Carpentries)";"RSE; Informatik"
+232;3/5/26, 11:00 AM;Talk (15min + 5min);The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI;Daniel S. Katz (University of Illinois Urbana-Champaign);RSE
+213;3/5/26, 11:00 AM;Workshop or Hackathon;Towards a Community-based Extension for Research Software Metadata from the German research community;Leyla Jael Castro (ZB MED Information Centre for Life Sciences);RSE
+274;3/5/26, 11:20 AM;Talk (15min + 5min);Embedding Artificial Intelligence into Research Software Engineering: Experiences from Göttingen;"Abdallah Mohamed Abdallah Abdelnaby; Ms Kristine Schima-Voigt (SUB Göttingen); Mustafa Dogan";"RSE; Informatik"
+251;3/5/26, 11:20 AM;Talk (15min + 5min);Reproducibility in Scientific Software Repositories and the Reusable Execution Environment;Anh Duc Vu (University Duisburg-Essen);"RSE; Informatik"
+166;3/5/26, 11:20 AM;Talk (15min + 5min);WRFtailor: A Toolkit for Tailoring the WRF Model Input Data;Amirhossein Nikfal (Forschungszentrum Jülich);Geowissenschaften
+281;3/5/26, 11:40 AM;Talk (15min + 5min);auto-icon: seamless management of ICON model runs with Autosubmit;Dr Andreas Baer (Karlsruhe Institute of Technology);Geowissenschaften
+246;3/5/26, 11:40 AM;Talk (15min + 5min);Improving Research Software through Short Feedback Loops;Patrick Rein (Potsdam Institute for Climate Impact Research (PIK);RSE
+221;3/5/26, 11:40 AM;Talk (15min + 5min);Leveraging AI in Simulation Workflows for Sustainable Materials Design with pyiron;Jan Janssen (Max Planck Institute for Sustainable Materials);"Materialwissenschaft und Werkstofftechnik; Informatik"
+179;3/5/26, 12:00 PM;Talk (15min + 5min);ASSESSMENT AND MONITORING OF POST-FIRE RECOVERY USING SATELLITE IMAGERY AND THE STABILITY INDEX  IN THE NORTH WEST OF ALGERIA;Ahmed zegrar (center of spaces technics);"Geowissenschaften; Agrar-, Forstwissenschaften und Tiermedizin"
+156;3/5/26, 12:00 PM;Talk (15min + 5min);Managing an RSE Ecosystem via Continuously Deploying Templates;Dr Philipp Sebastian Sommer (Helmholtz-Zentrum Hereon);"RSE; Informatik"
+244;3/5/26, 12:00 PM;Talk (15min + 5min);SmartTask: An AI-Driven Mobile Task Manager for Enhanced Research Software Engineering Productivity;Dr Giorgi Kakashvili (David Aghmashenebeli National Defence Academy of Georgia);"RSE; Informatik"
+334;3/5/26, 12:30 PM;;Farewell;"Bernd Flemisch (University of Stuttgart); Stephan Janosch (MPI-CBG)";(kein inhaltlicher Vortrag / organisatorisch)
+328;3/5/26, 1:30 PM;;Guided Tour: Computer Museum - 1;;(kein inhaltlicher Vortrag / organisatorisch)
+329;3/5/26, 1:30 PM;;Guided Tour: HLRS;;(kein inhaltlicher Vortrag / organisatorisch)
+330;3/5/26, 1:30 PM;;Guided Tour: VISUS;;(kein inhaltlicher Vortrag / organisatorisch)
+290;3/5/26, 1:30 PM;Tutorial or Skill-Up;Licenses and their implications on research software;"Mr Gerasimos Chourdakis (University of Stuttgart); Michele Martone";RSE
+265;3/5/26, 1:30 PM;Tutorial or Skill-Up;Reproducible HPC workflows using JUBE;"Marc-Andre Hermanns (RWTH Aachen University); Thomas Breuer";Informatik
+313;3/5/26, 1:30 PM;Meet-Up or BOF;RSEs in Large Research Consortia: Sharing Tools, Practices, and Lessons Learned;Hamza Oukili (University of Stuttgart);RSE
+332;3/5/26, 2:45 PM;;Guided Tour: Computer Museum - 2;;(kein inhaltlicher Vortrag / organisatorisch)
+305;;Demo;Workflomics: Automated Composition and Benchmarking of Data Analysis Workflows;Mario Frank (University of Potsdam);Informatik
