@@ -9,8 +9,8 @@
 | Wissenschaftsbereich              | Fachgebiet                          	| Dachverband/Fachgesellschaft        | Fach | Kontaktaufnahme  | Datum_Kontaktaufnahme | Datum_Antwort | Teilnahme
 | --------------------------------- | ------------------------------------------- | ------------- | ----- | ----- | ----- | ----- | ----- |
 | Geistes- und Sozialwissenschaften | Geisteswissenschaften                       | [Verband - "Digital Humanities im deutschsprachigen Raum"](https://digitalhumanities.de)         | Digital Humanities | nein | | | |
-| Geistes- und Sozialwissenschaften | Geisteswissenschaften                       | [CAA Deutschland e.V.](https://caa-international.org/national-chapters-2/germany/)         | Computational Archaeology | nein | | | |
-| Geistes- und Sozialwissenschaften | Geisteswissenschaften                       | [Deutsche Gesellschaft für Sprachwissenschaft e.V. (DGfS)](https://dgfs.de)         | Linguistik/Sprachwissenschaften | nein | | | |
+|                                   | Geisteswissenschaften                       | [CAA Deutschland e.V.](https://caa-international.org/national-chapters-2/germany/)         | Computational Archaeology | nein | | | |
+|                                   | Geisteswissenschaften                       | [Deutsche Gesellschaft für Sprachwissenschaft e.V. (DGfS)](https://dgfs.de)         | Linguistik/Sprachwissenschaften | nein | | | |
 |                                   | Sozial- und Verhaltenswissenschaften        | [Deutsche Gesellschaft für Psychologie e.V.](https://www.dgps.de)      | Psychologie | ja |  | | | 
 |                                   | Sozial- und Verhaltenswissenschaften        | [Deutsche Vereinigung für Politikwissenschaft e.V. (DVPW)](https://www.dvpw.de)      | Politikwissenschaft | nein |  | | | 
 |                                   | Sozial- und Verhaltenswissenschaften        | [Deutsche Arbeitsgemeinschaft Statistik e.V. (DAGStat)](https://www.dagstat.de)      | Statistik | nein |  | | | 
