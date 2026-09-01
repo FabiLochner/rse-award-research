@@ -62,4 +62,38 @@
 
 - 1-2 Fachgesellschaften/Dachverbände pro Wissenschaftsbereich als Teilnehmer
 
+Stellas Mapping
+
+
+Geistes & Sozialwissenschaften
+o	Soziologie			      DGS
+o	Geschichte			      VHD
+o	Kulturwissenschaften	VDW
+o	Psychologie			      DGP
+o	Sozial			        	VDW
+o	Wirtschaft		      	VfS
+o	Recht				          VDW
+o	Philosophie		      	VDW
+o	Erziehung/ Bildung		VDW
+o	Politik			        	DVPW
+
+Lebenswissenschaften
+o	Biologie		        	VBio
+o	Medizin		          	AWMF
+
+Naturwissenschaften
+o	Chemie		          	GDCh
+o	Physik		        		DPG
+o	Mathematik	      		DMV
+o	Klimaforschung	    	VDW
+o	Geologie		        	Dachverband Geowiss.
+o	Geographie		      	VDW
+
+Ingenieur
+o	Maschinenbau & Produktionstechnik	GAMM
+o	Informatik					              GI
+o	Bauwesen und Architektur		    	DGGT
+o	Elektrotechnik			            	DVT
+
+
 
