@@ -66,34 +66,34 @@ Stellas Mapping
 
 
 Geistes & Sozialwissenschaften
-o	Soziologie			      DGS
-o	Geschichte			      VHD
-o	Kulturwissenschaften	VDW
-o	Psychologie			      DGP
-o	Sozial			        	VDW
-o	Wirtschaft		      	VfS
-o	Recht				          VDW
-o	Philosophie		      	VDW
-o	Erziehung/ Bildung		VDW
-o	Politik			        	DVPW
+- Soziologie			      DGS
+- Geschichte			      VHD
+- Kulturwissenschaften	VDW
+- Psychologie			      DGP
+- Sozial			        	VDW
+- Wirtschaft		      	VfS
+- Recht				          VDW
+- Philosophie		      	VDW
+- Erziehung/ Bildung		VDW
+- Politik			        	DVPW
 
 Lebenswissenschaften
-o	Biologie		        	VBio
-o	Medizin		          	AWMF
+- Biologie		        	VBio
+- Medizin		          	AWMF
 
 Naturwissenschaften
-o	Chemie		          	GDCh
-o	Physik		        		DPG
-o	Mathematik	      		DMV
-o	Klimaforschung	    	VDW
-o	Geologie		        	Dachverband Geowiss.
-o	Geographie		      	VDW
+- Chemie		          	GDCh-
+- Physik		        		DPG
+- Mathematik	      		DMV
+- Klimaforschung	    	VDW
+- Geologie		        	Dachverband Geowiss.
+- Geographie		      	VDW
 
 Ingenieur
-o	Maschinenbau & Produktionstechnik	GAMM
-o	Informatik					              GI
-o	Bauwesen und Architektur		    	DGGT
-o	Elektrotechnik			            	DVT
+- Maschinenbau & Produktionstechnik	GAMM
+- Informatik					              GI
+- Bauwesen und Architektur		    	DGGT
+-  Elektrotechnik			            	DVT
 
 
 
