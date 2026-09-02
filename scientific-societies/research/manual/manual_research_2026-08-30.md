@@ -8,30 +8,30 @@
 
 | Wissenschaftsbereich              | Fachgebiet                          	| Dachverband/Fachgesellschaft        | Fach | Kontaktaufnahme  | Datum_Kontaktaufnahme | Datum_Antwort | Teilnahme
 | --------------------------------- | ------------------------------------------- | ------------- | ----- | ----- | ----- | ----- | ----- |
-| Geistes- und Sozialwissenschaften | Geisteswissenschaften                       | [Verband - "Digital Humanities im deutschsprachigen Raum"](https://digitalhumanities.de)         | Digital Humanities | nein | | | |
-|                                   | Geisteswissenschaften                       | [CAA Deutschland e.V.](https://caa-international.org/national-chapters-2/germany/)         | Computational Archaeology | nein | | | |
-|                                   | Geisteswissenschaften                       | [Deutsche Gesellschaft für Sprachwissenschaft e.V. (DGfS)](https://dgfs.de)         | Linguistik/Sprachwissenschaften | nein | | | |
-|                                   | Sozial- und Verhaltenswissenschaften        | [Deutsche Gesellschaft für Psychologie e.V.](https://www.dgps.de)      | Psychologie | ja |  | | | 
-|                                   | Sozial- und Verhaltenswissenschaften        | [Deutsche Vereinigung für Politikwissenschaft e.V. (DVPW)](https://www.dvpw.de)      | Politikwissenschaft | nein |  | | | 
-|                                   | Sozial- und Verhaltenswissenschaften        | [Deutsche Arbeitsgemeinschaft Statistik e.V. (DAGStat)](https://www.dagstat.de)      | Statistik | nein |  | | | 
-|                                   | Sozial- und Verhaltenswissenschaften        | [Deutschen Statistischen Gesellschaft e.V. (DStatG)](https://dstatg.de)      | Statistik | nein |  | | | 
-| Lebenswissenschaften              | Biologie                                    | [Verband Biologie, Biowissenschaften und Biomedizin in Deutschland e.V. (VBIO)](https://www.vbio.de)        | Biologie | nein | | | |
-|                                   | Medizin                                     | [Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften e.V. (AWMF)](https://www.awmf.org) | Medizin | ja | | | |
-|                                   | Medizin               | [Neurowissenschaftliche Gesellschaft e.V. (NWG)](https://nwg-info.de/de) | Neurowissenschaften | nein | | | |
-|                                   | Agrar-, Forstwissenschaften und Tiermedizin | [Dachverband wissenschaftlicher Gesellschaften der Agrar-, Forst-, Ernährungs-, Veterinär- und Umweltforschung e.V. (DAF)](https://www.agrarforschung.de)         | Agrar-, Forstwissenschaften und Tiermedizin | nein | | | |
-|                                   | Agrar-, Forstwissenschaften und Tiermedizin | [Deutsche Veterinärmedizinische Gesellschaft e.V. (DVG)](https://www.dvg.de)         | Tiermedizin | nein | | | |
-| Naturwissenschaften               | Chemie                                      | [Gesellschaft Deutscher Chemiker e.V. (GDCh)](https://www.gdch.de)         | Chemie | nein | | | |
-|                                   | Physik                                      | [Deutsche Physikalische Gesellschaft e.V. (DPG)](https://www.dpg-physik.de)         | Physik | nein| | | |
-|                                   | Mathematik                                  | [Deutsche Mathematiker-Vereinigung e.V. (DMV)](https://www.mathematik.de)         | Mathematik | nein| | | |
-|                                   | Geowissenschaften                           | [Dachverband der Geowissenschaften e.V. (DVGeo)](https://www.dvgeo.org)         | Geowissenschaften | nein| | | |
-|                                   | Geowissenschaften                           | [Deutsche Gesellschaft für Geowissenschaften e.V. (DGGV)](https://www.dggv.de)         | Geowissenschaften | nein | | | |
-| Ingenieurwissenschaften           | Maschinenbau und Produktionstechnik         | [Gesellschaft für Angewandte Mathematik und Mechanik e.V. (GAMM)](https://www.gamm.org)         | Angewandte Mathematik und Mechanik | nein | | | |
-|                                   | Maschinenbau und Produktionstechnik         | [Deutsche Gesellschaft für Luft- und Raumfahrt e.V. (DGLR)](https://www.dglr.de/startseite/)         | Luft- und Raumfahrt | nein | | | |
-|                                   | Wärmetechnik/Verfahrenstechnik              | [DECHEMA Gesellschaft für Chemische Technik und Biotechnologie e.V.](https://dechema.de)         | Chemische Technik und Biotechnologie | nein | | | |
-|                                   | Materialwissenschaft und Werkstofftechnik   | [Deutsche Gesellschaft für Materialkunde e.V. (DGM)](https://dgm.de)         | Materialwissenschaft | nein | | | |
-|                                   | Informatik, System- und Elektrotechnik      | [Gesellschaft für Informatik e.V. (GI)](https://gi.de)  | Informatik  | nein | | | |
-|                                   | Informatik, System- und Elektrotechnik      | [Deutscher Verband Technisch-Wissenschaftlicher Vereine e.V. (DVT)](https://www.dvt-net.de)  | Informatik, System- und Elektrotechnik   |nein | | | |
-|                                   | Bauwesen und Architektur                    | [Deutsche Gesellschaft für Geotechnik e.V. (DGGT)](https://www.dggt.de)         | Geotechnik | nein| | | |
+| Geistes- und Sozialwissenschaften | Geisteswissenschaften                       | [Verband - "Digital Humanities im deutschsprachigen Raum"](https://digitalhumanities.de)         | Digital Humanities | Stella Recherche | | | |
+|                                   | Geisteswissenschaften                       | [CAA Deutschland e.V.](https://caa-international.org/national-chapters-2/germany/)         | Computational Archaeology | Stella Recherche Florian Thiéry | | | |
+|                                   | Geisteswissenschaften                       | [Deutsche Gesellschaft für Sprachwissenschaft e.V. (DGfS)](https://dgfs.de)         | Linguistik/Sprachwissenschaften | Stella Recherche| | | |
+|                                   | Sozial- und Verhaltenswissenschaften        | [Deutsche Gesellschaft für Psychologie e.V.](https://www.dgps.de)      | Psychologie | Stella nachhaken |  | | | 
+|                                   | Sozial- und Verhaltenswissenschaften        | [Deutsche Vereinigung für Politikwissenschaft e.V. (DVPW)](https://www.dvpw.de)      | Politikwissenschaft | über Prof. Selzer (Fabian) |  | | | 
+|                                   | Sozial- und Verhaltenswissenschaften        | [Deutsche Arbeitsgemeinschaft Statistik e.V. (DAGStat)](https://www.dagstat.de)      | Statistik | Fabian Recherche |  | | | 
+|                                   | Sozial- und Verhaltenswissenschaften        | [Deutschen Statistischen Gesellschaft e.V. (DStatG)](https://dstatg.de)      | Statistik | Fabian Recherche |  | | | 
+| Lebenswissenschaften              | Biologie                                    | [Verband Biologie, Biowissenschaften und Biomedizin in Deutschland e.V. (VBIO)](https://www.vbio.de)        | Biologie | Stella Recherche | | | |
+|                                   | Medizin                                     | [Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften e.V. (AWMF)](https://www.awmf.org) | Medizin | Stella Draft | | | |
+|                                   | Medizin               | [Neurowissenschaftliche Gesellschaft e.V. (NWG)](https://nwg-info.de/de) | Neurowissenschaften | Aaron fragen (Stella) | | | |
+|                                   | Agrar-, Forstwissenschaften und Tiermedizin | [Dachverband wissenschaftlicher Gesellschaften der Agrar-, Forst-, Ernährungs-, Veterinär- und Umweltforschung e.V. (DAF)](https://www.agrarforschung.de)         | Agrar-, Forstwissenschaften und Tiermedizin | Fabian Recherche | | | |
+|                                   | Agrar-, Forstwissenschaften und Tiermedizin | [Deutsche Veterinärmedizinische Gesellschaft e.V. (DVG)](https://www.dvg.de)         | Tiermedizin | Fabian Recherche | | | |
+| Naturwissenschaften               | Chemie                                      | [Gesellschaft Deutscher Chemiker e.V. (GDCh)](https://www.gdch.de)         | Chemie | Stella Recherche | | | |
+|                                   | Physik                                      | [Deutsche Physikalische Gesellschaft e.V. (DPG)](https://www.dpg-physik.de)         | Physik | Stella Recherche | | |
+|                                   | Mathematik                                  | [Deutsche Mathematiker-Vereinigung e.V. (DMV)](https://www.mathematik.de)         | Mathematik | Stella Recherche| | | |
+|                                   | Geowissenschaften                           | [Dachverband der Geowissenschaften e.V. (DVGeo)](https://www.dvgeo.org)         | Geowissenschaften | Fabian Recherche | | |
+|                                   | Geowissenschaften                           | [Deutsche Gesellschaft für Geowissenschaften e.V. (DGGV)](https://www.dggv.de)         | Geowissenschaften | Fabian Recherche | | | |
+| Ingenieurwissenschaften           | Maschinenbau und Produktionstechnik         | [Gesellschaft für Angewandte Mathematik und Mechanik e.V. (GAMM)](https://www.gamm.org)         | Angewandte Mathematik und Mechanik | Fabian Recherche | | | |
+|                                   | Maschinenbau und Produktionstechnik         | [Deutsche Gesellschaft für Luft- und Raumfahrt e.V. (DGLR)](https://www.dglr.de/startseite/)         | Luft- und Raumfahrt | Fabian Recherche | | | |
+|                                   | Wärmetechnik/Verfahrenstechnik              | [DECHEMA Gesellschaft für Chemische Technik und Biotechnologie e.V.](https://dechema.de)         | Chemische Technik und Biotechnologie | Stella Recherche | | | |
+|                                   | Materialwissenschaft und Werkstofftechnik   | [Deutsche Gesellschaft für Materialkunde e.V. (DGM)](https://dgm.de)         | Materialwissenschaft | Stella Recherche | | | |
+|                                   | Informatik, System- und Elektrotechnik      | [Gesellschaft für Informatik e.V. (GI)](https://gi.de)  | Informatik  | fragen wann nächste Präsidiumssitzung?  Stella| | | |
+|                                   | Informatik, System- und Elektrotechnik      | [Deutscher Verband Technisch-Wissenschaftlicher Vereine e.V. (DVT)](https://www.dvt-net.de)  | Informatik, System- und Elektrotechnik   | überlegen ob überhaupt - welcher Bereich?| | | |
+|                                   | Bauwesen und Architektur                    | [Deutsche Gesellschaft für Geotechnik e.V. (DGGT)](https://www.dggt.de)         | Geotechnik | Stella Recherche| | | |
 
 
 
