@@ -62,7 +62,7 @@
 
 - 1-2 Fachgesellschaften/Dachverbände pro Wissenschaftsbereich als Teilnehmer
 
-Stellas Mapping
+# Stellas Mapping
 
 
 Geistes & Sozialwissenschaften
