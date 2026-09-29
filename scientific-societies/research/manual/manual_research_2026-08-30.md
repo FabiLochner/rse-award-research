@@ -5,7 +5,7 @@
 
 | Wissenschaftsbereich              | Fachgebiet                                  | Dachverband/Fachgesellschaft        | Fach | Kontaktaufnahme  | Recherche_Kontaktaufnahme | Datum_Kontaktaufnahme | Datum_Antwort | Teilnahme |
 | --------------------------------- | ------------------------------------------- | ------------- | ----- | ----- | ----- | ----- | ----- | ----- |
-| Geistes- und Sozialwissenschaften | Geisteswissenschaften                       | [Verband - "Digital Humanities im deutschsprachigen Raum"](https://digitalhumanities.de/)         | Digital Humanities | Stella Recherche | | | | |
+| Geistes- und Sozialwissenschaften | Geisteswissenschaften                       | [Verband - "Digital Humanities im deutschsprachigen Raum"](https://digitalhumanities.de/)         | Digital Humanities | über Prof. Dr. Ulrike Wuttke, 1. Vorsitzende, Fachhochschule Potsdam Informationswissenschaften, info@digitalhumanitites.de | | | | |
 |                                   | Geisteswissenschaften                       | [CAA Deutschland e.V.](https://caa-international.org/national-chapters-2/germany/)         | Computational Archaeology | Stella Recherche Florian Thiéry | | | | |
 |                                   | Geisteswissenschaften                       | [Deutsche Gesellschaft für Sprachwissenschaft e.V. (DGfS)](https://dgfs.de/)         | Linguistik/Sprachwissenschaften | Stella Recherche | | | | |
 |                                   | Sozial- und Verhaltenswissenschaften        | [Deutsche Gesellschaft für Psychologie e.V.](https://www.dgps.de/)      | Psychologie | Stella nachhaken | | | | |
