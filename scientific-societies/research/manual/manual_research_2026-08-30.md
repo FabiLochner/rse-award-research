@@ -7,10 +7,7 @@
 | --------------------------------- | ------------------------------------------- | ------------- | ----- | ----- | ----- | ----- | ----- | ----- |
 | Geistes- und Sozialwissenschaften | Geisteswissenschaften                       | [Verband - "Digital Humanities im deutschsprachigen Raum"](https://digitalhumanities.de/)         | Digital Humanities | Stella Recherche | über Prof. Dr. Ulrike Wuttke, 1. Vorsitzende, Fachhochschule Potsdam Informationswissenschaften, info@digitalhumanitites.de| | | |
 |                                   | Geisteswissenschaften                       | [CAA Deutschland e.V.](https://caa-international.org/national-chapters-2/germany/)         | Computational Archaeology |  Stella Drebber | Florian Thiéry, Research Software Engineer, NFDI4Objects, florian.thiery@leiza.de| | | |
-|                                   | Geisteswissenschaften                       | [Deutsche Gesellschaft für Sprachwissenschaft e.V. (DGfS)](https://dgfs.de/)         | Linguistik/Sprachwissenschaften | Stella Recherche
- | Sprecherin Sektion Computerlinguistik
-Annette Hautli-Janisz
-Universität Passau, Fakultät für Informatik und Mathematik, annette.hautli-janisz@uni-passau.de| | | |
+|                                   | Geisteswissenschaften                       | [Deutsche Gesellschaft für Sprachwissenschaft e.V. (DGfS)](https://dgfs.de/)         | Linguistik/Sprachwissenschaften | Stella Recherche | Sprecherin Sektion Computerlinguistik<br>Annette Hautli-Janisz<br>Universität Passau, Fakultät für Informatik und Mathematik, annette.hautli-janisz@uni-passau.de| | | |
 |                                   | Sozial- und Verhaltenswissenschaften        | [Deutsche Gesellschaft für Psychologie e.V.](https://www.dgps.de/)      | Psychologie | Stella nachhaken | Stella hat nachgehakt| | | |
 |                                   | Sozial- und Verhaltenswissenschaften        | [Deutsche Vereinigung für Politikwissenschaft e.V. (DVPW)](https://www.dvpw.de/)      | Politikwissenschaft | über Prof. Sältzer (Fabian) | ja; Mail am 2026-09-28 | | | |
 |                                   | Sozial- und Verhaltenswissenschaften        | [Sektion Methoden der empirischen Sozialforschung der Deutschen Gesellschaft für Soziologie (DGS)](https://www.dgs-methoden.de)      | Soziologie | Fabian Recherche | https://www.dgs-methoden.de/kontakt<br><br>Ass. Prof. Katharina Meitinger (Sprecherin)  <br>[EMAIL](https://www.dgs-methoden.de/kontakt#)  <br>Social and Behavior Sciences  <br>University of Utrecht  <br>Padualaan 14  <br>NL-3584 CH Utrecht<br><br>Prof. Dr. Natalja Menold (stellvertr. Sprecherin)  <br>[EMAIL](https://www.dgs-methoden.de/kontakt#)  <br>Professur “Methoden der empirischen Sozialforschung”  <br>Technische Universität Dresden  <br>Chemnitzer Straße 46a  <br>D-01187 Dresden<br><br>Dr. Verena Ortmanns (Schatzmeisterin)  <br>[EMAIL](https://www.dgs-methoden.de/kontakt# "EMAIL")  <br>Deutsches Institut für Erwachsenenbildung (DIE)  <br>Leibniz-Zentrum für Lebenslanges Lernen e.V.  <br>Heinemannstraße 12-14  <br>D-53175 Bonn | | | |
@@ -21,35 +18,18 @@ Universität Passau, Fakultät für Informatik und Mathematik, annette.hautli-ja
 |                                   | Medizin               | [Neurowissenschaftliche Gesellschaft e.V. (NWG)](https://nwg-info.de/de) | Neurowissenschaften | Aaron gefragt (Stella) | | | | |
 |                                   | Agrar-, Forstwissenschaften und Tiermedizin | [Dachverband wissenschaftlicher Gesellschaften der Agrar-, Forst-, Ernährungs-, Veterinär- und Umweltforschung e.V. (DAF)](https://www.agrarforschung.de/)         | Agrar-, Forstwissenschaften und Tiermedizin | Fabian Recherche | https://www.agrarforschung.de/de/kontakt<br><br>**Dachverband Agrarforschung (DAF) e.V.**  <br>Eschborner Landstr. 122  <br>60489 Frankfurt am Main  <br>[www.agrarforschung.de](http://www.agrarforschung.de/)<br><br>Dr. Achim Schaffner  <br>Tel.: +49 69 24788-321  <br>Fax: +49 69 24788-114  <br>[A.Schaffner@DLG.org](mailto:A.Schaffner@DLG.org) | | | |
 |                                   | Agrar-, Forstwissenschaften und Tiermedizin | [Deutsche Veterinärmedizinische Gesellschaft e.V. (DVG)](https://www.dvg.de/)         | Tiermedizin | Fabian Recherche | https://www.dvg.de/kontakt/<br><br>Deutsche Veterinärmedizinische Gesellschaft (DVG)  <br>An der Alten Post 2  <br>35390 Gießen<br><br>[0641 / 9844460](tel:06419844460)<br><br>info@dvg.de | | | |
-| Naturwissenschaften               | Chemie                                      | [Gesellschaft Deutscher Chemiker e.V. (GDCh)](https://www.gdch.de/)         | Chemie | Stella Recherche | Dr. Maximilian Bräutigam
-Chief Digital Officer / Leiter Digitale Transformation Tel.: +49 69 7917-330
-m.braeutigam@gdch.de| | | |
-|                                   | Physik                                      | [Deutsche Physikalische Gesellschaft e.V. (DPG)](https://www.dpg-physik.de/)         | Physik | Stella Recherche | Vorstandsmitglied Wissenschaftliche Programme, Preise
-
-Prof. Dr. Martin Wolf - wolf@fhi-berlin.mpg.de| | | |
-|                                   | Mathematik                                  | [Deutsche Mathematiker-Vereinigung e.V. (DMV)](https://www.mathematik.de/)         | Mathematik | Stella Recherche | Andrea Kirstein-Gaekel
-
-Leitung DMV-Geschäftsstelle
-
-Sitz der Geschäftsstelle
-Hausvogteiplatz 11a, 4. OG, 10117 Berlin
-Postadresse 
-c/o WIAS, Anton-Wilhelm-Amo-Str. 39, 10117 Berlin
-
-Tel.: +49 30 20372 306 
-E-Mail: dmv@wias-berlin.de| | | |
+| Naturwissenschaften               | Chemie                                      | [Gesellschaft Deutscher Chemiker e.V. (GDCh)](https://www.gdch.de/)         | Chemie | Stella Recherche | Dr. Maximilian Bräutigam<br>Chief Digital Officer / Leiter Digitale Transformation Tel.: +49 69 7917-330<br>m.braeutigam@gdch.de| | | |
+|                                   | Physik                                      | [Deutsche Physikalische Gesellschaft e.V. (DPG)](https://www.dpg-physik.de/)         | Physik | Stella Recherche | Vorstandsmitglied Wissenschaftliche Programme, Preise<br><br>Prof. Dr. Martin Wolf - wolf@fhi-berlin.mpg.de| | | |
+|                                   | Mathematik                                  | [Deutsche Mathematiker-Vereinigung e.V. (DMV)](https://www.mathematik.de/)         | Mathematik | Stella Recherche | Andrea Kirstein-Gaekel<br><br>Leitung DMV-Geschäftsstelle<br><br>Sitz der Geschäftsstelle<br>Hausvogteiplatz 11a, 4. OG, 10117 Berlin<br>Postadresse<br>c/o WIAS, Anton-Wilhelm-Amo-Str. 39, 10117 Berlin<br><br>Tel.: +49 30 20372 306<br>E-Mail: dmv@wias-berlin.de| | | |
 |                                   | Geowissenschaften                           | [Dachverband der Geowissenschaften e.V. (DVGeo)](https://www.dvgeo.org/)         | Geowissenschaften | Fabian Recherche | https://www.dvgeo.org/kontakt<br><br>Dachverband der Geowissenschaften (DVGeo)<br><br>Luisenstraße 58/59  <br>10117 Berlin<br><br>[info@DVGeo.org](mailto:fahry-seelig@DVgeo.org)<br><br>Tel.: +49 30 201 79 683 | | | |
 |                                   | Geowissenschaften                           | [Deutsche Geologische Gesellschaft - Geologische Vereinigung (DGGV)](https://www.dggv.de/)         | Geowissenschaften | Fabian Recherche | https://www.dggv.de/ueber-uns/<br><br>**Frau Inka Wienen**  <br>Tel. 030-509 640 48<br><br>[Mail senden](mailto:info@dggv.de) | | | |
 | Ingenieurwissenschaften           | Maschinenbau und Produktionstechnik         | [Gesellschaft für Angewandte Mathematik und Mechanik e.V. (GAMM)](https://www.gamm.org/)         | Angewandte Mathematik und Mechanik | Fabian Recherche | Geschäftsstelle der GAMM  <br>Prof. Dr.-Ing. habil. Michael Kaliske  <br>Technische Universität Dresden  <br>Institut für Statik und Dynamik  <br>der Tragwerke  <br>Fakultät Bauingenieurwesen  <br>01062 Dresden<br><br>sekretaer@gamm.org<br><br>Tel 0351 463- 33448  <br>Fax 0351 463- 37086  <br>Mail: info@gamm.org<br> | | | |
 |                                   | Maschinenbau und Produktionstechnik         | [Deutsche Gesellschaft für Luft- und Raumfahrt e.V. (DGLR)](https://www.dglr.de/startseite/)         | Luft- und Raumfahrt | Fabian Recherche | https://www.dglr.de/ueber-uns/organisation/geschaeftsstelle/<br><br>Zentrale/ Sekretariat<br><br>[info(at)dglr.de](mailto:info@dglr.de)<br><br>+49 228 30805-0 | | | |
 |                                   | Wärmetechnik/Verfahrenstechnik              | [DECHEMA Gesellschaft für Chemische Technik und Biotechnologie e.V.](https://dechema.de/)         | Chemische Technik und Biotechnologie | Stella Recherche | Fachsektion Bioinformatik und molekulare Methoden - karsten.schuerrle@dechema.de| | | |
-|                                   | Materialwissenschaft und Werkstofftechnik   | [Deutsche Gesellschaft für Materialkunde e.V. (DGM)](https://dgm.de/)         | Materialwissenschaft | Stella Recherche | Geschäftsführung
- stefan.kleindgm.de | | | |
+|                                   | Materialwissenschaft und Werkstofftechnik   | [Deutsche Gesellschaft für Materialkunde e.V. (DGM)](https://dgm.de/)         | Materialwissenschaft | Stella Recherche | Geschäftsführung<br>stefan.kleindgm.de | | | |
 |                                   | Informatik, System- und Elektrotechnik      | [Gesellschaft für Informatik e.V. (GI)](https://gi.de/)  | Informatik  | fragen wann nächste Präsidiumssitzung?  Stella| | | | |
 |                                   | Informatik, System- und Elektrotechnik      | [Deutscher Verband Technisch-Wissenschaftlicher Vereine e.V. (DVT)](https://www.dvt-net.de/)  | Informatik, System- und Elektrotechnik   | überlegen ob überhaupt - welcher Bereich?| | | | |
-|                                   | Bauwesen und Architektur                    | [Deutsche Gesellschaft für Geotechnik e.V. (DGGT)](https://www.dggt.de/)         | Geotechnik | Stella Recherche| GESCHÄFTSFÜHRERIN
-Prof. Dr.-Ing.
-Stefanie Danne | | | |
+|                                   | Bauwesen und Architektur                    | [Deutsche Gesellschaft für Geotechnik e.V. (DGGT)](https://www.dggt.de/)         | Geotechnik | Stella Recherche| GESCHÄFTSFÜHRERIN<br>Prof. Dr.-Ing.<br>Stefanie Danne | | | |
 
 
 #### 1.1) Quellen/Grundlage: 
