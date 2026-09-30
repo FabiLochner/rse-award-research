@@ -111,62 +111,81 @@
 ]
 
 // ============================================================
+// ABBREVIATIONS
+// ============================================================
+
+#v(15pt)
+#text(size: 11pt, weight: "bold")[Abbreviations]
+#v(4pt)
+#text(size: 10pt)[
+  #grid(
+    columns: (auto, 1fr),
+    column-gutter: 4em,
+    row-gutter: 3pt,
+    [*RS*], [Research Software],
+    [*DACH*], [Germany, Austria, Switzerland],
+    [*GI*], [Gesellschaft für Informatik],
+    [*BTW*], [Datenbanksysteme für Business, Technologie und Web],
+    [*deRSE*], [Annual German Conference for Research Software Engineering],
+  )
+]
+
+#v(0.5cm)
+
+// ============================================================
 // CONTENT
 // ============================================================
 
-= Award categories
+= RSE Award categories
 
 
 
 #figure(
   table(
     columns: (auto, auto, auto, auto),
-    rows: (auto, auto, 1.8cm, 1.8cm, 1.8cm, 1.8cm, auto),
+    rows: auto,
     align: horizon,
     fill: (x, y) => {
       if y == 0 { none }
-      else if y == 1 { rgb("ADD8E6") }
-      else if y >= 2 and y <= 5 { rgb("#90EE90") }
+      else if y == 1 { rgb("#90EE90") }
       else { rgb("#FFB5E5") }
     },
     table.header[Category][Sub-Category][Format][Eligibility],
 
-    [Artefact Track],
-    [-],
+    [(1) Scientific Excellence],
+    grid(
+      columns: 1,
+      row-gutter: 0pt,
+      inset: (x: 5pt, y: 8pt),
+      [(1.1) Humanities and Social Sciences],
+      grid.hline(),
+      [(1.2) Life Sciences],
+      grid.hline(),
+      [(1.3) Natural Sciences and Engineering],
+      grid.hline(),
+      [(1.4) Computer Science and Contributions with Artefacts],
+    ),
     [Open call],
-    [RS must have an artefact badge from a German or DACH conference],
-
-    table.cell(rowspan: 4)[Scientific Excellence],
-    [Humanities and Social Sciences],
-    table.cell(rowspan: 4)[Open call],
-    table.cell(rowspan: 4)[
+    [
       + RS must be clearly associated with scientific peer-reviewed journal publications (substantial part of research)
 
       + Researchers must be affiliated with a German or DACH university/research institution
-    ],
-    [Life Sciences],
-    [Natural Sciences and Engineering],
-    [Computer Science and Contributions with Artefacts],
 
-    [Newcomer],
+      + Only for (1.4) sub-category: RS must have an artefact badge from a German or DACH conference
+    ],
+
+    [(2) Newcomer],
     [-],
     [Open call],
     [+ PhD (and master) students from a German or DACH university/research institution
-    
+
     + Submission of motivation letter],
   ),
   caption: [Award categories, format and eligibility criteria. RS = Research software],
 )
 
 
-*Open questions*:
-
-- Keeping Artefact Track as a separate category or not? 
-  - Could also be a requirement for the "Engineering" sub-category. 
-  - From all > 100 GI-Fachgruppen only two German/DACH conferences were found with an artefact evaluation track (DELFI 2026, BTW 2025)
-
-
-= Process/timeline
+= Process and timeline of RSE Award
 
 #let timeline-diagram(stages, fill-color: white) = {
   let n = stages.len()
@@ -216,24 +235,11 @@
   ]
 }
 
-#let generic-stages = (
-  (label: "Conference/Public Call", dates: ([deRSE27 Poster\(2027-03)], [])),
-  (label: "Filtering", dates: ([],)),
-  (label: "Short-list", dates: ([],)),
-  (label: "Jury", dates: ([],)),
-  (label: "Award Event", dates: ([INFORMATIK 27 (2027-09)],)),
-)
-
-#figure(
-  timeline-diagram(generic-stages),
-  caption: [Process timeline of the RSE Award, from public call to award event],
-)
-
 == Scientific Excellence category
 
 #let science-stages = (
   (label: "Conference/Public Call", dates: ([deRSE27 Poster\(2027-03)], [])),
-  (label: "Filtering", dates: ([Scientific societies \ Research impact],)),
+  (label: "Filtering", dates: ([Scientific societies \ (Research impact)],)),
   (label: "Short-list", dates: ([],)),
   (label: "Jury", dates: ([],)),
   (label: "Award Event", dates: ([INFORMATIK 27 (2027-09)],)),
@@ -243,10 +249,6 @@
   timeline-diagram(science-stages, fill-color: rgb("#90EE90")),
   caption: [Process timeline for the Scientific Excellence category],
 )
-
-*Open questions*:
-
-- Process with scientific societies unclear
 
 #v(1cm)
 
