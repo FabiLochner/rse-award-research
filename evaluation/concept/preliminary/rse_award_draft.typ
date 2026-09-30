@@ -273,27 +273,20 @@
 #figure(
   table(
     columns: (auto, auto, auto),
-    rows: (auto, auto, 1cm, 1cm, 1cm, 1cm, 1cm, 1cm, 1cm, 1cm, 1cm),
+    rows: auto,
     align: horizon,
     fill: (x, y) => {
       if y == 0 { none }
-      else if y == 1 { rgb("ADD8E6") }
-      else if y >= 2 and y <= 5 { rgb("#90EE90") }
+      else if y >= 1 and y <= 2 { rgb("#90EE90") }
       else { rgb("#FFB5E5") }
     },
     table.header[Category][Filter Criteria][Filter Indicators],
 
-    [Artefact Track],
-    [-],
-    [-],
-
-    table.cell(rowspan: 4)[Scientific Excellence],
-    table.cell(rowspan: 2)[Scientific societies],
-    [],
-    [],
-    table.cell(rowspan: 2)[Research impact],
-    [Number of citations, \ Number of paper downloads],
-    [Ranking of the journal],
+    table.cell(rowspan: 2)[Scientific Excellence],
+    [Scientific societies assessment],
+    [Score (1-5) for each of the 5 example questions (see 3.1) + free-text justification and overall assessment per RS],
+    [Quantitative research impact indicators],
+    [Number of citations, ranking of the journal, number of paper downloads],
 
     table.cell(rowspan: 5)[Newcomer],
     table.cell(rowspan: 2)[Motivation letter],
@@ -304,6 +297,8 @@
     ),
   caption: [Filter system],
 )
+
+*Open question*: For the "Scientific Excellence" category, it is currently unclear whether the quantitative research impact indicators would be provided to the scientific societies upfront (alongside qualitative assessment), and how these indicators would be weighted against the scientific societies' assessment.
 
 == Scientific societies 
 
@@ -322,6 +317,7 @@ questions. This is demonstrated by citations in in high quality publications or 
 
 And it uses the following indicators: _Narratives explaining impact, quality and number of citations demonstrating impact, awards._
 
+#pagebreak()
 
 #underline[Example questions we could address to the scientific societies to measure the _research impact_ of a RS:]
 
@@ -348,7 +344,7 @@ On top, the following quantitative indicators are also collected to measure the 
 For each submitted RS the date of the collected indicators must be the same, eg the start of the awards' application period. These indicators could be provided (or not) to the scientific societies for the evaluation. 
 
 
-
+#pagebreak()
 
 = Jury composition & award ceremony
 
