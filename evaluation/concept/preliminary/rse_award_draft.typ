@@ -16,7 +16,7 @@
 
 // Text formatting
 #set text(
-  font: "New Computer Modern Math",
+  font: "New Computer Modern",
   size: 12pt,
   lang: "en",
 )
@@ -140,13 +140,13 @@
     [Humanities and Social Sciences],
     table.cell(rowspan: 4)[Open call],
     table.cell(rowspan: 4)[
-      + RS must be published in a scientific peer-reviewed journal
+      + RS must be clearly associated with scientific peer-reviewed journal publications (substantial part of research)
 
       + Researchers must be affiliated with a German or DACH university/research institution
     ],
     [Life Sciences],
-    [Natural Sciences],
-    [Engineering],
+    [Natural Sciences and Engineering],
+    [Computer Science and Contributions with Artefacts],
 
     [Newcomer],
     [-],
@@ -302,6 +302,48 @@
     ),
   caption: [Filter system],
 )
+
+== Scientific societies 
+
+
+The general idea for involving scientific societies is to get a high quality evaluation of the _research impact_ criterion by domain experts and to filter down the RS submissions. 
+
+The #link("https://os.helmholtz.de/assets/open_science/user_upload/Software-Award-Criteria-2026.pdf")[Helmholtz Software Award (p. 2)] defines _scientific impact_ as: 
+
+#quote[
+  This criterion evaluates the scientific impact of the software. Research software is regarded
+as high-impact if it demonstrably contributes substantial value to scientific research. A
+software has scientific impact if it e. g. enhances the analytic capabilities of research, or
+makes possible efficiency gains of research projects, or makes possible tackling new research
+questions. This is demonstrated by citations in in high quality publications or awards.
+]
+
+And it uses the following indicators: _Narratives explaining impact, quality and number of citations demonstrating impact, awards._
+
+
+#underline[Example questions we could address to the scientific societies to measure the _research impact_ of a RS:]
+
+- *Does the RS solve an important problem that has not been solved before or it solves the problem in a new, innovative way?* 
+
+- *Does the RS increase the existing knowledge within the research field?*
+
+- *Does the RS make it possible to tackle new research questions?*
+
+- *How high is the re-use potential of the RS for other researchers to make valuable contributions to the research field in the future?*
+
+- *Does the RS make efficiency gains of research projects possible?*
+
+Each question would be answered on an ordinal scale, eg from 1 (minimum) to 5 (outstanding). 
+
+The scientific society gives a brief justification for each questions' score and an overall assessment for each evaluated RS in the form of a free text.
+
+On top, the following quantitative indicators are also collected to measure the _research impact_:
+
+-  _number of citations_
+- _ranking of the journal_ 
+- _number of paper downloads_
+
+For each submitted RS the date of the collected indicators must be the same, eg the start of the awards' application period. These indicators could be provided (or not) to the scientific societies for the evaluation. 
 
 
 
