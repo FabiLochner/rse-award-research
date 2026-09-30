@@ -382,7 +382,7 @@ For each submitted RS the date of the collected indicators must be the same, eg 
 
 = Evaluation criteria and indicators
 
-== Artefact Track and Scientific Excellence
+== Scientific Excellence
 
 #[
 #show figure: set block(breakable: true)
@@ -391,6 +391,7 @@ For each submitted RS the date of the collected indicators must be the same, eg 
   table(
     columns: (auto, auto, auto, auto, auto, auto),
     rows: (auto, auto, auto),
+    fill: (x, y) => if y == 0 { none } else { rgb("#90EE90") },
     table.header([], [Software\ Engineering Level], [Research\ Impact], [Community\ Engagement], [FAIRness\ &\ (Reproducability)], [Maintainability\ &\ Sustainability]),
     [Definition], [This criterion evaluates the adherence to best practices of coding and software engineering principles.], [This criterion evaluates the scientific impact of the research software.], [This criterion evaluates the degree of community engagement to the research software.], [This criterion evalues the adherence to the #link("https://www.nature.com/articles/s41597-022-01710-x")[FAIR4RS] principles, which are part of the Open Science concept.], [This criterion evaluates the long-term stability and maintainability of the research software.], 
     [Indicators],
@@ -412,7 +413,7 @@ For each submitted RS the date of the collected indicators must be the same, eg 
     [Sources],
     table.cell(colspan: 5)[Projektantrag, #link("https://everse.software/indicators/website/indicators.html")[EVERSE indicators], #link("https://os.helmholtz.de/assets/open_science/user_upload/Software-Award-Criteria-2026.pdf")[Helmholtz Software Award]],
   ),
-  caption: [Evaluation criteria and indicators for the Artefact Track and Scientific Excellence category],
+  caption: [Evaluation criteria and indicators for the Scientific Excellence category],
 )
 ]
 
@@ -422,18 +423,32 @@ Each criterion is rated on an ordinal scale, from 1 (minimum) to 5 (outstanding)
 
 == Newcomer
 
+#[
+#show figure: set block(breakable: true)
+#set text(size: 11pt)
 #figure(
   table(
-    columns: (auto, auto, 1fr),
+    columns: (auto, auto, auto, auto),
     rows: (auto, auto, auto),
-    fill: rgb("#FFB5E5"),
-    [], [Community\ Engagement], [],
-    [Definition], [], [],
-    [Indicators], [], [],
-    [Sources], [], [],
+    fill: (x, y) => if y == 0 { none } else { rgb("#FFB5E5") },
+    table.header([], [Software\ Engineering Level], [Community\ Engagement], [FAIRness\ &\ (Reproducability)]),
+    [Definition], [This criterion evaluates the adherence to best practices of coding and software engineering principles.], [This criterion evaluates the degree of community engagement to the research software.], [This criterion evalues the adherence to the #link("https://www.nature.com/articles/s41597-022-01710-x")[FAIR4RS] principles, which are part of the Open Science concept.],
+    [Indicators],
+    [#text(font: "New Computer Modern", style: "italic")[
+      Best SE practices (e.g., modularity, readability, efficiency); Software has tests (unit, integration, system tests); Software test coverage (code, branch, threshold, completeness);\ Human code review\ requirement (pull requests)
+    ]],
+    [#text(font: "New Computer Modern", style: "italic")[
+      Repo contribution stats (guidelines, contributors, pull requests, commit frequency, issues);\ Repo popularity stats (stars, watch, forks, downloads); \ Active communication channels and documentation pages
+    ]],
+    [#text(font: "New Computer Modern", style: "italic")[
+      CodeMeta completeness; descriptive metadata; license; persistent identifier; archived in Software Heritage/scholarly repo; uses citation; versioning standards; containerized
+    ]],
+    [Sources],
+    table.cell(colspan: 3)[Projektantrag, #link("https://everse.software/indicators/website/indicators.html")[EVERSE indicators], #link("https://os.helmholtz.de/assets/open_science/user_upload/Software-Award-Criteria-2026.pdf")[Helmholtz Software Award]],
   ),
   caption: [Evaluation criteria and indicators for the Newcomer category],
 )
+]
 
 Each criterion is rated on an ordinal scale, from 1 (minimum) to 5 (outstanding). 
 
