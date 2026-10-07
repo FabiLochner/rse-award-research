@@ -1,5 +1,7 @@
 #import "@preview/typslides:1.3.4": *
 #import "@preview/fletcher:0.5.8": diagram, node, edge
+#import "@preview/tiaoma:0.3.0": qrcode   // oben bei den anderen Imports
+
 
 #show: typslides.with(ratio: "16-9", theme: "purply", show-progress: true)
 
@@ -28,6 +30,7 @@
   title: "RSE Award",
  // subtitle: [Einführung in die Statistik mit Python],
   authors: "Fabian Lochner",
+  info: "2026-10-13"
 )
 
 
@@ -237,7 +240,192 @@
 //    Jury - Bewertungssystem
 // ]
 
+
+#slide(title: "Jury - Bewertungssystem", outlined: true)[
+  #set text(lang: "de", size: 11pt)
+  #set par(justify: false)
+
+  #figure(
+    table(
+      columns: (0.95fr, 1.45fr, 1.4fr, 1.7fr, 1.7fr, 1.7fr),
+      align: left + top,
+      inset: 5pt,
+      stroke: 0.8pt + black,
+
+      table.header(
+        [],
+        [*Software\ Engineering Level*],
+        [*Research\ Impact*],
+        [*Community\ Engagement*],
+        [*FAIRness\ & (Reproducibility)*],
+        [*Maintainability\ & Sustainability*],
+      ),
+
+      [*Definition*],
+      [Dieses Kriterium bewertet die Einhaltung der Best Practices im Bereich des Software Engineerings],
+      [Dieses Kriterium bewertet die wissenschaftliche Relevanz],
+      [Dieses Kriterium bewertet den Grad des Engagements der Community für die Forschungssoftware],
+      [Dieses Kriterium bewertet die Einhaltung der FAIR4RS-Prinzipien],
+      [Dieses Kriterium bewertet die langfristige Stabilität und Wartbarkeit der Forschungssoftware],
+
+      [*Indikatoren*],
+      [Bewährte SE-Verfahren (z. B. Modularität, Lesbarkeit); Tests (Unit-, Integrations-, Systemtests); Testabdeckung; manuelle Codeüberprüfung (Pull-Requests)],
+      [Bewertung durch Fachgesellschaften],
+      [Repo-Beiträge (Mitwirkende, Pull-Anfragen, Commit-Häufigkeit, Issues); Repo-Beliebtheit (Stars, Forks, Downloads); Kommunikationskanäle und Dokumentation],
+      [CodeMeta-Vollständigkeit; Lizenz; permanenter Identifikator; archiviert in Software Heritage bzw. wissenschaftlichem Repositorium; Zitierangaben; containerisiert],
+      [Repo ist aktiv; Veröffentlichungen; aktuelle Metadaten; Abhängigkeitsverwaltung; Issue-Tracking-System; Phase im Software Development Life Cycle],
+
+      [*Quellen*],
+      table.cell(colspan: 5)[
+        RSE Award Projektantrag,
+        #link("https://everse.software/indicators/website/indicators.html")[EVERSE indicators],
+        #link("https://os.helmholtz.de/assets/open_science/user_upload/Software-Award-Criteria-2026.pdf")[Helmholtz Software Award]
+      ],
+    ),
+    caption: [
+      Bewertungskriterien und Indikatoren. In der Kategorie *Scientific Excellence* gelten alle fünf Kriterien,
+      in der Kategorie *Newcomer* nur #emph[Software Engineering Level], #emph[Community Engagement] und #emph[FAIRness].
+    ],
+  )
+  #v(0.2em)
+  #set text(size: 11pt)
+  #list(
+    spacing: 0.5em,
+    [Jedes Kriterium wird auf einer Ordinalskala von *1* (minimal) bis *5* (hervorragend) bewertet.],
+    [In jeder (Sub-)Kategorie erhält das Projekt mit der höchsten Gesamtpunktzahl den *Scientific Excellence* bzw. *Newcomer Award*.],
+  )
+]
+
 // #title-slide[
 //    Jury - Zusammensetzung
 // ]
 
+
+// ---------- Farben (passend zum purply-Theme) ----------
+#let accent = rgb("#862A70")
+#let light = accent.lighten(88%)
+#let ink = rgb("#2b1a27")
+
+// Skaliert ein Diagramm bei Bedarf auf die verfügbare Breite
+#let fit(d) = layout(size => context {
+  let w = measure(d).width
+  if w > size.width { scale(size.width / w * 100%, reflow: true, d) } else { d }
+})
+
+// Standard-Knoten
+#let box-node(pos, body, filled: false, w: auto, inset: 6pt) = node(
+  pos, if filled { text(fill: white, body) } else { body }, shape: rect, corner-radius: 5pt, width: w, inset: inset,
+  fill: if filled { accent } else { light },
+  stroke: 1.5pt + accent,
+)
+
+// Spaltenüberschrift ohne Rahmen
+#let col-label(pos, body, color: accent) = node(pos, text(size: 10.5pt, weight: "bold", fill: color, body), stroke: none, fill: none)
+
+// Pfeil-Stil
+#let arrow = 1.5pt + accent.lighten(25%)
+
+#slide(title: "Jury - Zusammensetzung (Offene Diskussion)", outlined: true)[
+  #set text(lang: "de", size: 13pt, fill: ink)
+  #set par(justify: false)
+
+  // --- Spektrum: Fachexpertise <-> technische Expertise ---
+  #align(center)[
+    #fit(diagram(
+      spacing: (13em, 0pt),
+      node-inset: 6pt,
+      box-node((0, 0), [*Fachexpertise* (Domain-Wissen)]),
+      edge((0, 0), (1, 0), "<|-|>", stroke: 2.2pt + accent, label: text(size: 12pt, style: "italic")[Wie wichtig ist was?], label-side: left, label-sep: 0.3em),
+      box-node((1, 0), [*Technische Expertise* (Software Engineering)]),
+    ))
+  ]
+
+  #v(0.3em)
+
+  // --- Zwei Varianten nebeneinander ---
+  #grid(
+    columns: (1.4fr, 1fr),
+    column-gutter: 0.8em,
+
+    // Variante 1
+    block(width: 100%, height: 6.4cm, stroke: 1.2pt + accent, radius: 6pt, inset: 8pt)[
+      #text(weight: "bold", fill: accent, size: 14pt)[Variante 1: Jury nach Disziplinen]
+      #v(1fr)
+      #fit(diagram(
+        spacing: (2.2em, 0.8em),
+        node-inset: 4pt,
+
+        // Spaltenüberschriften
+        col-label((0, -0.9), [Wissenschaftsbereich]),
+        col-label((1, -0.9), [Scientific Excellence], color: black),
+
+        // Wissenschaftsbereiche
+        box-node((0, 0), text(size: 11pt)[1.1 Geistes- & Sozialwiss.], w: 11.5em, inset: 4pt),
+        box-node((0, 1), text(size: 11pt)[1.2 Lebenswissenschaften], w: 11.5em, inset: 4pt),
+        box-node((0, 2), text(size: 11pt)[1.3 Natur- & Ingenieurwiss.], w: 11.5em, inset: 4pt),
+        box-node((0, 3), text(size: 11pt)[1.4 Informatik], w: 11.5em, inset: 4pt),
+
+        // je ein Pfeil in eine eigene, schmale Jury-Box
+        edge((0, 0), (1, 0), "-|>", stroke: arrow),
+        edge((0, 1), (1, 1), "-|>", stroke: arrow),
+        edge((0, 2), (1, 2), "-|>", stroke: arrow),
+        edge((0, 3), (1, 3), "-|>", stroke: arrow),
+
+        box-node((1, 0), text(size: 10.5pt)[Interdisziplinäre Jury], filled: true, w: 9em, inset: 4.5pt),
+        box-node((1, 1), text(size: 10.5pt)[Interdisziplinäre Jury], filled: true, w: 9em, inset: 4.5pt),
+        box-node((1, 2), text(size: 10.5pt)[Interdisziplinäre Jury], filled: true, w: 9em, inset: 4.5pt),
+        box-node((1, 3), text(size: 10.5pt)[Interdisziplinäre Jury], filled: true, w: 9em, inset: 4.5pt),
+
+        // von jeder der vier Juries ein Pfeil in den Newcomer-Kasten
+        edge((1, 0), (2, 1.5), "--|>", stroke: (paint: accent, thickness: 1.5pt, dash: "dashed")),
+        edge((1, 1), (2, 1.5), "--|>", stroke: (paint: accent, thickness: 1.5pt, dash: "dashed")),
+        edge((1, 2), (2, 1.5), "--|>", stroke: (paint: accent, thickness: 1.5pt, dash: "dashed")),
+        edge((1, 3), (2, 1.5), "--|>", stroke: (paint: accent, thickness: 1.5pt, dash: "dashed")),
+
+        box-node((2, 1.5), text(size: 11pt)[*Newcomer*\ Sample aus 4 bestehenden Juries], w: 8em),
+      ))
+      #v(1fr)
+    ],
+
+    // Variante 2
+    block(width: 100%, height: 6.4cm, stroke: 1.2pt + accent, radius: 6pt, inset: 8pt)[
+      #text(weight: "bold", fill: accent, size: 14pt)[Variante 2: RSE-Jury]
+      #v(1fr)
+      #fit(diagram(
+        spacing: (2.4em, 1.1em),
+        node-inset: 5pt,
+        box-node((0, 1), text(size: 12pt)[RSE-Fachleute mit hoher technischer Expertise], filled: true, w: 9.5em),
+        edge((0, 1), (1, 0), "-|>", stroke: arrow),
+        edge((0, 1), (1, 2), "-|>", stroke: arrow),
+        box-node((1, 0), text(size: 12pt)[*Scientific Excellence*], w: 8.5em),
+        box-node((1, 2), text(size: 12pt)[*Newcomer*], w: 8.5em),
+      ))
+      #v(1fr)
+    ],
+  )
+
+  #v(0.4em)
+
+  // --- Diskussionsfrage ---
+  #block(width: 100%, fill: accent, radius: 6pt, inset: 8pt)[
+    #set text(fill: white, size: 14pt)
+    *Diskussion:* 
+    
+    Wie wichtig ist Fachexpertise vs. technische Expertise für die Evaluation der Forschungssoftware, insbesondere für die *Scientic Excellence* Awards?
+  ]
+]
+
+
+#slide(title: "Eure Teilnahme (Google Docs)", outlined: true)[
+  === RSE Award Konzept in Google Docs
+  #v(2em)
+  #set text(lang: "de", size: 18pt)
+  #align(center + horizon)[
+    #qrcode("https://docs.google.com/document/d/1EpxxsSj0-A9TplJfq0X0v54bgSwvzFEVAJ4CO7qamP8/edit?usp=sharing", width: 6cm)
+
+    #v(0.5em)
+    Scannen, um das Dokument in Google Docs zu öffnen
+
+    #link("https://docs.google.com/document/d/1EpxxsSj0-A9TplJfq0X0v54bgSwvzFEVAJ4CO7qamP8/edit?usp=sharing")[Dokument in Google Docs öffnen]
+  ]
+]
