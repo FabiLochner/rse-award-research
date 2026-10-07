@@ -78,7 +78,7 @@ Contributions are welcome both through git and pull requests, and entirely throu
 
 ## Data formats and naming
 
-Research results are kept in plain-text formats on purpose, so they're easy to read, diff, and edit without specialized software: Markdown (`.md`) for raw research notes, and CSV (`.csv`) for the structured results tables.
+Research results are kept in plain-text formats on purpose, so they're easy to read, diff, and edit without specialized software: Markdown (`.md`) is preferred for raw research notes; and Markdown (`.md`) and CSV (`.csv`) is preferred for the structured results tables.
 
 Folder names use lowercase letters and hyphens (e.g. `artefact-tracks`); file names use lowercase letters and underscores (e.g. `artefact_tracks_results.csv`). The full naming rules, including the date-stamped pattern for raw research files, are documented in [`CONTRIBUTING.md`](CONTRIBUTING.md#file-and-naming-conventions).
 
