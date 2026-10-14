@@ -29,7 +29,7 @@
 |                                   | Materialwissenschaft und Werkstofftechnik   | [Deutsche Gesellschaft für Materialkunde e.V. (DGM)](https://dgm.de/)         | Materialwissenschaft | Stella Recherche | Geschäftsführung<br>stefan.klein@dgm.de |14.10.26 | | |
 |                                   | Informatik, System- und Elektrotechnik      | [Gesellschaft für Informatik e.V. (GI)](https://gi.de/)  | Informatik  | fragen wann nächste Präsidiumssitzung?  Stella| | | | |
 |                                   | Informatik, System- und Elektrotechnik      | [Deutscher Verband Technisch-Wissenschaftlicher Vereine e.V. (DVT)](https://www.dvt-net.de/)  | Informatik, System- und Elektrotechnik   | überlegen ob überhaupt - welcher Bereich?| | | | |
-|                                   | Bauwesen und Architektur                    | [Deutsche Gesellschaft für Geotechnik e.V. (DGGT)](https://www.dggt.de/)         | Geotechnik | Stella Recherche| GESCHÄFTSFÜHRERIN<br>Prof. Dr.-Ing.<br>Stefanie Danne | | | |
+|                                   | Bauwesen und Architektur                    | [Deutsche Gesellschaft für Geotechnik e.V. (DGGT)](https://www.dggt.de/)         | Geotechnik | Stella Recherche| GESCHÄFTSFÜHRERIN<br>Prof. Dr.-Ing.<br>Stefanie Danne |14.10.26 | | |
 
 
 #### 1.1) Quellen/Grundlage: 
