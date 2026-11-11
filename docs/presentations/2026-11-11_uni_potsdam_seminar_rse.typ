@@ -1,4 +1,5 @@
 #import "@preview/typslides:1.3.4": *
+#import "@preview/fletcher:0.5.8" as fletcher: diagram, node, edge
 
 
 #show: typslides.with(ratio: "16-9", theme: "purply", show-progress: true)
@@ -35,6 +36,111 @@
 // Custom outline
 #table-of-contents()
 
+// "Zu meiner Person": dual structure (two jobs) drawn with fletcher
+#let c-gi = rgb("#8b2a6e")   // job 1: GI / RSE Award (matches the purply theme)
+#let c-uol = rgb("#1f6f8b")  // job 2: University of Oldenburg
+
+// small rounded label ("chip") in the colour of its job
+#let chip(color, body) = box(
+  fill: color.lighten(85%),
+  stroke: 0.6pt + color,
+  radius: 4pt,
+  inset: (x: 6pt, y: 3.5pt),
+  body,
+)
+
+// one job card: coloured banner on top (= the focus), details below
+#let job-card(color, focus, org, role, body, mail) = box(
+  width: 120mm,
+  radius: 6pt,
+  stroke: 1.2pt + color,
+  clip: true,
+  // stack + fixed-height details box (a flexible 1fr grid row confuses fletcher's arrow routing)
+  stack(
+    // banner with the focus of the job
+    box(width: 100%, fill: color, inset: (x: 10pt, y: 8pt))[
+      #set text(fill: white)
+      #text(size: 1.15em, weight: "bold")[#focus]
+    ],
+    // details
+    box(width: 100%, height: 62mm, inset: 10pt)[  // fixed height: both cards equally tall
+      #set align(left)
+      #show link: set text(fill: color)
+      *#org* \
+      #role \
+      #v(0.5em)
+      #body
+      #v(0.5em)
+      #text(size: 0.9em)[E-Mail: #link("mailto:" + mail)[#text(fill: color)[#mail]]]
+    ],
+  ),
+)
+
+#title-slide[
+   Zu meiner Person
+]
+
+#slide(title: "Zu meiner Person")[
+#set text(size: 0.62em)
+
+#align(center)[
+#diagram(
+  spacing: (14mm, 20mm),  // gap between the nodes (not between their centres)
+  node-stroke: none,
+  edge-stroke: 1.6pt,
+
+  // top: the person
+  node((0.5, 0), corner-radius: 8pt, fill: luma(95%), stroke: 1pt + luma(60%), inset: 10pt)[
+    #text(size: 1.4em, weight: "bold")[Fabian Lochner] \
+    M.Sc. Social Data Science (Kopenhagen) 
+  ],
+
+  // left: job 1 (evaluation of research software)
+  node((0, 1))[
+    #job-card(
+      c-gi,
+      [Evaluation von Forschungssoftware],
+      [Gesellschaft für Informatik e.V., Berlin],
+      [Projekt RSE Award],
+      [
+        Gute Praxis sichtbar machen und exzellente Forschungssoftware auszeichnen, gemeinsam mit de-RSE e.V., gefördert von der Klaus Tschira Stiftung
+        #v(0.5em)
+        #set text(size: 0.9em)
+        #chip(c-gi)[Evaluation] #chip(c-gi)[RSE-Forschung]
+      ],
+      "fabian.lochner@gi.de",
+    )
+  ],
+
+  // right: job 2 (development of research software)
+  node((1, 1))[
+    #job-card(
+      c-uol,
+      [Entwicklung von Forschungssoftware],
+      [Universität Oldenburg, Digital Social Science],
+      [Wiss. MA, Projekt RobustifAI],
+      [
+        Computational Social Science: Forschungssoftware an der Schnittstelle von
+        #v(0.5em)
+        #set text(size: 0.9em)
+        #grid(
+          columns: (auto, auto, auto, auto, auto),
+          column-gutter: 4pt,
+          align: center + horizon,
+          chip(c-uol)[Textdaten], [+], chip(c-uol)[Knowledge Graphs/Ontologien], [+], chip(c-uol)[LLM-Agenten],
+        )
+      ],
+      "fabian.lochner@uol.de",
+    )
+  ],
+
+  // connections from the person to both jobs
+  edge((0.5, 0), (0, 1), "-|>", stroke: 1.6pt + c-gi),
+  edge((0.5, 0), (1, 1), "-|>", stroke: 1.6pt + c-uol),
+)
+]
+]
+
 // Title slides create new sections
 #title-slide[
    Theorie
@@ -63,23 +169,23 @@
 
 
 
-#slide(title: "1) Theorie")[
-  == 1.1) Eure Papervorträge (und Diskussion)
-  == 1.2) Kategorisierung von Forschungssoftware
-  == 1.3) Evaluation von Forschungssoftware
+#slide(title: "2) Theorie")[
+  == 2.1) Eure Papervorträge (und Diskussion)
+  == 2.2) Kategorisierung von Forschungssoftware
+  == 2.3) Evaluation von Forschungssoftware
 ]
 
-#slide(title: "1.1) Eure Papervorträge", outlined: true)[
+#slide(title: "2.1) Eure Papervorträge", outlined: true)[
   #image("images/literatur-liste.png")
 ]
 
-#slide(title: "1.2) Kategorisierung von Forschungssoftware", outlined: true)[
+#slide(title: "2.2) Kategorisierung von Forschungssoftware", outlined: true)[
   #image("images/everse-tier-model.png")
   #link("https://everse.software/RSQKit/three_tier_view")[EVERSE 3-tier model]
 ]
 
 
-#slide(title: "1.2.1) EVERSE 3-tier model")[
+#slide(title: "2.2.1) EVERSE 3-tier model")[
   #set text(size: 13pt, hyphenate:true)
   #set par(justify: false)
 
@@ -117,7 +223,7 @@
 ]
 
 
-#slide(title: "1.2.2) Research Software Lifecycle")[
+#slide(title: "2.2.2) Research Software Lifecycle")[
   #align(center)[
     #image("images/everse-lifecycle.png", height: 90%)
     #v(-0.5em)  // optional: pulls the link closer to the image
@@ -126,7 +232,7 @@
 ]
 
 
-#slide(title: "1.2.3) Quality Implications Across the Lifecycle")[
+#slide(title: "2.2.3) Quality Implications Across the Lifecycle")[
   #set text(size: 18pt, hyphenate: true)
   #set par(justify: false)
 
@@ -156,14 +262,14 @@
   #link("https://zenodo.org/records/18861872")[Quelle: EVERSE Reference Framework, Version 2.1]
 ]
 
-#slide(title: "1.2.4) Kategorisierung nach Hasselbring et al. (2024)")[
+#slide(title: "2.2.4) Kategorisierung nach Hasselbring et al. (2024)")[
   #align(center)[
       #image("images/hasselbring-kategorisierung.png")
     ]
   ]
 
 
-#slide(title: "1.3) Evaluation von Forschungssoftware", outlined: true)[
+#slide(title: "2.3) Evaluation von Forschungssoftware", outlined: true)[
   #framed[
     + Welche Dimensionen und Kriterien für die Evaluation?
     + Wie vergleicht man Forschungssoftware aus verschiedenen Tiers und disziplinenübergreifend?
@@ -171,7 +277,7 @@
   ]
 ]
 
-#slide(title: "1.3.1) EVERSE: Research Software Quality Dimensions and Indicators")[
+#slide(title: "2.3.1) EVERSE: Research Software Quality Dimensions and Indicators")[
   #set text(size: 13pt, hyphenate:true)
   #set par(justify: false)
 
@@ -212,7 +318,7 @@ Quellen (abgerufen am 11.11.2026): \
 
 
 
-#slide(title: "1.3.2) Helmholtz Software Award")[
+#slide(title: "2.3.2) Helmholtz Software Award")[
   #set text(size: 13pt, hyphenate:true)
   #set par(justify: false)
 
@@ -249,7 +355,7 @@ Best Scientific Software, Sustainability, Newcomer
 ]
 
 
-#slide(title: "1.3.3) RSE Award Prototype 1: Kategorien")[
+#slide(title: "2.3.3) RSE Award Prototype 1: Kategorien")[
   #set text(lang: "de", size: 14.5pt)
   #set enum(spacing: 0.55em, indent: 0pt, body-indent: 0.6em)
 
@@ -296,7 +402,7 @@ Best Scientific Software, Sustainability, Newcomer
   )
 ]
 
-#slide(title: "1.3.4) RSE Award Prototype 1: Jury - Bewertungssystem")[
+#slide(title: "2.3.4) RSE Award Prototype 1: Jury - Bewertungssystem")[
   #set text(lang: "de", size: 11pt)
   #set par(justify: false)
 
@@ -354,11 +460,158 @@ Best Scientific Software, Sustainability, Newcomer
 
 
 #title-slide[
-   Praxis
+   Praxis (resqui tool)
 ]
 
 
-#slide(title: "2.1) EVERSE Software Quality Pipelines: resqui tool", outlined: true)[]
+#slide(title: "3.1) EVERSE Software Quality Pipelines: resqui tool")[
 
+#image("images/resqui.png", height: 80%)
+
+
+#text(size: 0.7em)[
+  Repository: #link("https://github.com/EVERSE-ResearchSoftware/QualityPipelines")[github.com/EVERSE-ResearchSoftware/QualityPipelines] \
+  Dokumentation: #link("https://everse.software/QualityPipelines/")[everse.software/QualityPipelines]
+]
+
+
+]
+
+#slide(title: "3.2) resqui: configuration files")[
+  #image("images/resqui-configs.png", height: 90%)
+
+
+  #text(size: 0.7em)[
+    #link("https://github.com/EVERSE-ResearchSoftware/QualityPipelines/tree/main/configurations")
+  ]
+]
+
+#slide(title: "3.3) resqui: Indicator coverage per dimension")[
+
+#set text(size: 0.7em)
+#table(
+  columns: (1fr, auto, auto, auto, auto),
+  inset: (x: 6pt, y: 3pt),
+  align: (left + horizon, center + horizon, center + horizon, center + horizon, center + horizon),
+  table.header(
+    [*Dimension*], [*Number of Indicators*], [*Implemented*], [*Not implemented*], [*Coverage*],
+  ),
+  [FAIRness], [21], [14], [7], [67%],
+  [Maintainability], [19], [11], [8], [58%],
+  [Security], [5], [5], [0], [100%],
+  [Community], [4], [1], [3], [25%],
+  [Functional suitability], [4], [1], [3], [25%],
+  [Open Source Software], [4], [1], [3], [25%],
+  [Sustainability], [4], [3], [1], [75%],
+  [Flexibility], [2], [2], [0], [100%],
+  [Reliability], [2], [1], [1], [50%],
+  [Compatibility], [1], [1], [0], [100%],
+  [Interaction Capability], [1], [1], [0], [100%],
+  [Safety], [1], [1], [0], [100%],
+  [Performance Efficiency], [0], [0], [0], [n/a],
+  table.hline(stroke: 1.5pt),
+  [*Sum of dimension tags*], [*68*], [*42*], [*26*], [*62%*],
+)
+
+Note: Some indicators are mapped to more than one dimension. \
+Status: 11.11.2026, #link("https://github.com/EVERSE-ResearchSoftware/QualityPipelines/blob/main/configurations/complete.json")[resqui: complete.json]
+]
+
+#slide(title: "3.4) resqui: Not (yet) implemented indicators")[
+
+#set text(size: 0.7em)
+#table(
+  columns: (auto, auto, 1fr),
+  inset: (x: 6pt, y: 4pt),
+  align: (left + horizon, center + horizon, left + horizon),
+  table.header(
+    [*Dimension*], [*Count*], [*Indicators*],
+  ),
+  [Maintainability], [8],
+  [code_churn_ok, code_smells_ok, lines_of_code_ok, code_documentation_coverage_ok, uses_tool_for_warnings_and_mistakes, metadata_is_up_to_date, has_active_communication_channels, support_issue_tracking],
+  [FAIRness], [7],
+  [archived_in_scholarly_repository, codemeta_completeness, software_has_license_for_file_types, metadata_is_up_to_date, passed_tests_ok, code_documentation_coverage_ok, uses_tool_for_warnings_and_mistakes],
+  [Community], [3], [has_active_communication_channels, has_active_contributors, response_timeframe_ok],
+  [Open Source Software], [3], [has_active_communication_channels, has_active_contributors, response_timeframe_ok],
+  [Functional suitability], [3], [passed_tests_ok, functional_correctness, software_test_coverage],
+  [Reliability], [1], [software_test_coverage],
+  [Sustainability], [1], [software_test_coverage],
+)
+
+Note: An indicator can be mapped to more than one dimension. Status: 11.11.2026
+]
+
+
+
+#slide(title: "3.5) resqui: initial test (2026-09-09) - quantiative results")[
+#set text(size: 0.85em)
+
+#table(
+  columns: (auto, auto, auto),
+  inset: 10pt, 
+  align: horizon,
+  table.header(
+    [*Config*], [*Repo*], [*Passed indicators*],
+  ),
+  [complete_deduplicated_nolint.json],
+  [#link("https://github.com/FabiLochner/kg-digital-humanities")[kg-digital-humanities]],
+  [14/32], 
+  [complete_deduplicated_nolint.json],
+  [#link("https://github.com/juliandehne/lni_study/tree/main")[lni_study]],
+  [10/32],
+  [complete_deduplicated_nolint.json],
+  [#link("https://github.com/microsoft/graphrag")[graphrag]],
+  [19/32],
+  [complete_deduplicated_nolint.json],
+  [#link("https://github.com/Deep-MI/FastSurfer")[FastSurfer]],
+  [17/32],
+  [complete_deduplicated_nolint.json],
+  [#link("https://github.com/stair-lab/kg-gen")[kg-gen]],
+  [13/32]
+
+)
+
+]
+
+#slide(title: "3.6) resqui: initial test (2026-09-09) - qualitative results")[
+#set text(size: 0.6em)
+#set list(spacing: 0.4em)
+
+#table(
+  columns: (auto, 1fr, 1.5fr),
+  inset: (x: 6pt, y: 3.5pt),
+  align: (left + horizon, left + horizon, left + horizon),
+  table.header(
+    [*Theme*], [*Finding*], [*Example*],
+  ),
+
+  [*1) Consistency*],
+  [Same indicator, different plugins: contradicting results. Evidence quality varies (RSFC detailed, OEBFAIR only "Found ...")],
+  [
+    - descriptive_metadata: RSFC false vs. OEBFAIR true (correct one unclear)
+    - persistent_and_unique_identifier: RSFC false vs. OEBFAIR true (RSFC correct)
+    - has_package: OpenSSF Scorecard false vs. OEBFAIR true (OpenSSF correct)
+    - Consistent: has_documentation, has_license, has_citation
+  ],
+
+  [*2) Validity*],
+  [Proxy checks (file and folder names) instead of content analysis; only GitHub and GitLab],
+  [
+    - software_has_tests = true, only because of a notebook name and an empty "test" folder
+    - has_contribution_guidelines: probably only checks that a file exists
+    - version_control_use: Codeberg etc. not considered
+  ],
+
+  [*3) Strictness*],
+  [All sub-checks must pass, some never succeed: false negatives],
+  [descriptive_metadata = false for all four repos ("Languages", "Date Created" never found, although present in FastSurfer's pyproject.toml)],
+
+  [*4) Verifiability*],
+  [Verdicts hard to verify; identical results across repos],
+  [Gitleaks "insecure" hard to verify; no_critical_vulnerability = false for all four repos],
+)
+
+Analysis based on own repo's (#link("https://github.com/FabiLochner/kg-digital-humanities")[kg-digital-humanities]) results
+]
 
 
